@@ -1,25 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <title>About | HHS</title>
+<title>About | Hillcrest High School</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="fav.ico">
+<!-- favicon -->
+  <link rel="icon" type="image/png" href="img/fav.ico">
+<!-- end of favicon -->
+
+<!-- Boostrap and font awesome -->
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="index.css"> 
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css"> 
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"> 
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="index.json"></script>
+<!-- end of Bootstrap and font awesome -->
+
+<!-- link CSS and JQuery -->
+<link rel="stylesheet" href="css/index.css"> 
+<script src="js/index.json"></script>
+<!-- end of CSS and JQuery -->
 </head>
 
 <body id="about" data-spy="scroll" data-target=".navbar" data-offset="60">
-
+<!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -28,73 +34,77 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index.html"><img src="fav.ico" width="50px" /></a>
+      <a class="navbar-brand" href="main.html"><img src="img/fav.ico" width="50px" /></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="slcs.html">SLCS</a></li>
+        <li class="active"><a href="about.html">ABOUT</a></li>
+        <li><a href="slc.html">SLCs</a></li>
         <li><a href="academics.html">ACADEMICS</a></li>
         <li><a href="departments.html">DEPARTMENTS</a></li>
         <li><a href="highlighter.html">HIGHLIGHTER</a></li>
         <li><a href="sports.html">SPORTS</a></li>
         <li><a href="contact.html">CONTACT</a></li>
-
-        
+        <li><a href="college.html">COLLEGE</a></li>
       </ul>
     </div>
   </div>
 </nav>
+<!-- end of navigation -->
 
+<!-- Banner -->
+<div class="bg"></div>
 <div id="title" class="jumbotron text-center">
   <h1>About</h1>
-  <h1>@</h1>
-  <p>Hillcrest High School</p> 
-  <p>Need to fix controls on first map</p>
+  <p>Hillcrest High School</p>  
 </div>
+<!-- end of Banner -->
 
-
-<!-- Container (About Section) -->
-<div id="description" class="container-fluid">
+<!--About Section -->
+<div id="description" class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-8">
-      
-      <h4>Hillcrest is a STEAM (Science, Technology, Engineering, Arts, and Mathematics) school that proudly offers its students a world-class education with a dynamic faculty and challenging curriculum. Our students get the benefits and warmth of a small school setting with our seven Small Learning Communities all within a large comprehensive high school that offers Advanced Placement classes and one of the largest College Now programs in New York City.</h4><br>
-     
-     
+     <h4>Hillcrest is a STEAM (Science, Technology, Engineering, Arts, and Mathematics) school that proudly offers its students a world-class education with a dynamic faculty and challenging curriculum. Our students get the benefits and warmth of a small school setting with our seven Small Learning Communities all within a large comprehensive high school that offers Advanced Placement classes and one of the largest College Now programs in New York City.</h4><br>
     </div>
     <div class="col-sm-4 slideanim">
       <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/site/settings/6b91c70d-0782-4bc8-9102-ebdc25d278aa?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&Expires=1793990044&response-content-disposition=attachment%3Bfilename%3D%22hillcrest_logo.png%22&response-content-type=image%2Fpng&Signature=MDdnNHkXcAQa%2B19L0lfJs9zx7qk%3D" width="250px"/>
     </div>
-  </div>
+ </div>
+<!-- end of About section -->
   <br>
-
-  <div id="school img" class="row slideanim text-center">
-
+  <!-- Start of map -->
+<div id="school img" class="row slideanim text-center">
   <div class= "col-sm-4">
   <h3>School Front (360&deg; View)</h3>
-
   <iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2sus!4v1491760991529!6m8!1m7!1scfln0xo7ly0y77wA2tuspw!2m2!1d40.70883824111161!2d-73.80199667343892!3f301.9471716361108!4f-3.9724973499857867!5f0.7820865974627469" width="300" height="450" frameborder="0" style="border:0" ></iframe>
   </div>
    <div class= "col-sm-4">
-  <h3>School Location</h3>
-
-   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3024.3973311489653!2d-73.8017544!3d40.7092689!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c260e77e0f5087%3A0xf7c3a8ae9d7f5a49!2sHillcrest+High+School!5e0!3m2!1sen!2sus!4v1491759803691" width="300" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-  </div> 
-
-</div>
+    <h3>School Location</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3024.3973311489653!2d-73.8017544!3d40.7092689!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c260e77e0f5087%3A0xf7c3a8ae9d7f5a49!2sHillcrest+High+School!5e0!3m2!1sen!2sus!4v1491759803691" width="300" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+   </div>
   <div class= "col-sm-8" >
-    <h3><a href="https://support.google.com/maps/answer/1610636?hl=en&ref_topic=3093390" target="about_blank">Instructions on how to use maps</a></h3> 
+    <button class="btn text-center" style="font-size: 20px;"><a href="https://support.google.com/maps/answer/1610636?hl=en&ref_topic=3093390" target="about_blank">Instructions on how to use maps</a></button> 
   </div>
 </div>
 
+</div>
+<!-- end of map -->
+
+<!-- Banner -->
+
+<div id="end banner" class="jumbotron text-center">  
+  <h1 style="background-color: white; border-radius: 10px; color: purple;">Home Of The Hawks</h1>
+</div><br><br>
+
+<!-- end of Banner -->
+
+<!-- Start footer -->
 <footer class="container-fluid text-center">
 <a href="#about" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
-  <p>&copy; Copyright Hillcrest High School</p>  
-  <a href="icons.html">Icons Used</a> &#8226; <a href="team.html">Team</a>
+  <p>&copy; Copyright Hillcrest High School</p>
+  <a href="icons.html">Icons Used</a> &#8226; <a href="team.html">Web Development Team</a>
 </footer>
-
+<!-- end of footer -->
 
 
 

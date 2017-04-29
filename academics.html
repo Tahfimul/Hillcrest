@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <title>Academics | HHS</title>
+  <title>Academics | Hillcrest High School</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="fav.ico">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="index.css"> 
+<!-- favicon -->
+  <link rel="icon" type="image/png" href="img/fav.ico">
+<!-- end of favicon -->
+
+<!-- Boostrap and font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css"> 
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="index.json"></script>
+<!-- end of Bootstrap and font awesome -->
+
+<!-- link CSS and JQuery -->
+<link rel="stylesheet" href="css/index.css"> 
+<script src="js/index.json"></script>
+<!-- end of CSS and JQuery -->
 </head>
 
 <body id="main" data-spy="scroll" data-target=".navbar" data-offset="60">
-
+<!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -26,65 +34,67 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index.html"><img src="fav.ico" width="50px" /></a>
+      <a class="navbar-brand" href="main.html"><img src="img/fav.ico" width="50px" /></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="about.html">ABOUT</a></li>
-        <li><a href="slcs.html">SLCS</a></li>
-        <li><a href="academics.html">ACADEMICS</a></li>
+        <li><a href="slc.html">SLCs</a></li>
+        <li class="active"><a href="academics.html">ACADEMICS</a></li>
         <li><a href="departments.html">DEPARTMENTS</a></li>
         <li><a href="highlighter.html">HIGHLIGHTER</a></li>
         <li><a href="sports.html">SPORTS</a></li>
         <li><a href="contact.html">CONTACT</a></li>
-        
-        
+        <li><a href="college.html">COLLEGE</a></li>
       </ul>
     </div>
-  </div>
+  </div>  
 </nav>
+<!-- end of Navigation -->
 
-<div id="title" class="jumbotron text-center">
+<!-- Banner -->
+
+<div class="bg"></div>
+<div class="jumbotron text-center">
   <h1>Academics</h1>
-  <h1>@</h1>
-  <p>Hillcrest High School</p> 
-  <p>Need to add modal Box/fIX ACADEMICS NAV BAR LINKS</p>
-  
+  <p class="lead">Hillcrest High School</p>
 </div>
+<!-- end of Banner -->
 
-<nav class="navbar">
-<div class="container">
- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#academicsNavbar">
+<!-- Internal Navigation -->
+<nav  class="navbar">
+  <div class="container">
+  <a class="navbar-brand" data-toggle="collapse" data-target="#academicsNavbar">Menu</a> 
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#academicsNavbar">
         <span class="icon-bar"><img src="img/menu.png" width="25px"></span>                      
-      </button>
-    <div class="navbar-header">      
-      <a class="navbar-brand" href="sports.html">ACADEMICS</a>
-    </div>
+  </button>    
     <div class="collapse navbar-collapse text-center" id="academicsNavbar">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav" style="font-size: 20px;">
         <li><a href="#cte">CTE</a></li>
-        <li><a href="#hillcrest life">LIFE AT HILLCREST</a></li>
+        <li><a href="#hillcrest-life">LIFE AT HILLCREST</a></li>
         <li><a href="#ap">AP FOR ALL</a></li>
-        <li><a href="#ap c">AP COURSES</a></li>
+        <li><a href="#ap-c">AP COURSES</a></li>
         <li><a href="#non-ap">NON-AP COURSES</a></li>
         <li><a href="#extracurricular">EXTRACURRICULAR</a></li>
         <li><a href="#vei">VEI</a></li>
-        <li><a href="#stay informed">STAY INFORMED</a></li>
         <li><a href="#highlights">HIGHLIGHTS</a></li>       
       </ul>
     </div>
-  </div>
+ </div>
 </nav>
-<hr>
+<!-- end of Internal Navigation -->
+<br>
 
-<!--Container (Academics Description)-->
-<div id="cte" class="container-fluid bg-grey">
-  <div class="row">
-    
-    <div class="col-sm-8">
-      <h2>CAREER AND TECHNICAL EDUCATION</h2>
-      <h4>"Preparing Hillcrest students for college and career"</h4>
-      <h4><strong>What is Career and Technical Education (CTE)?</strong></h4>
+<!--CTE-->
+<div class="bg"></div>
+<div id="cte" class="jumbotron text-center">
+  <h1>CTE</h1>  
+</div>
+<div class="container-fluid bg-grey">
+  <div class="row">    
+    <div class="col-sm-8">     
+      <h2>CTE (Career and Technical Education)</h2>
+      <h4><strong>What is CTE?</strong></h4>
       <h4>Rigorous, relevant academic and technical instruction aligned to career pathways identified as high‐skill, high‐wage, and high‐demand through labor market needs.</h4>
       <h4><strong>In what NYS Career Clusters does Hillcrest currently offer their CTE Programs?</strong></h4>
       <h4>• Business Management & Administration-Virtual Enterprise
@@ -111,11 +121,11 @@
       <h4>Work-based learning (WBL) is a progressive, multi-year sequence of instructional activities that extends students’ learning from school into a real-world, work-related context. These experiences allow students to build a bridge from adolescence to adulthood.</h4>
 
       <h4>WBL activities can occur in any grade - at any school; it is a core strategy in Career and Technical Education (CTE). Here are a few examples of different types WBL that prepare your students to fully participate outside the classroom.</h4>
+</div>
 
-    </div>
-    <br><br><br><br><br><br><br><br>
-    <div class="col-sm-4 slideanim">
-    <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/8caba5e4-0fd7-4b12-aaa4-068d5194c32a?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790844286&response-content-disposition=attachment%3Bfilename%3D%22CTE2.jpg%22&response-content-type=image%2Fjpeg&Signature=PseNVbTcnEVp%2F688ovAd5%2F%2FoU28%3D" width="300px" data-toggle="modal" data-target="#1Modal"/>
+    <br><br><br><br><br>
+<div class="col-sm-4 slideanim">
+    <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/8caba5e4-0fd7-4b12-aaa4-068d5194c32a?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790844286&response-content-disposition=attachment%3Bfilename%3D%22CTE2.jpg%22&response-content-type=image%2Fjpeg&Signature=PseNVbTcnEVp%2F688ovAd5%2F%2FoU28%3D" width="230px" data-toggle="modal" data-target="#1Modal"/>
               <!-- Modal -->
        <div id="1Modal" class="modal slideanim" role="dialog">
          <div class="modal-dialog">
@@ -125,7 +135,7 @@
               <button type="button" class="close" data-dismiss="modal">&times;</button>               
             </div>
             <div class="modal-body text-center">
-                <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/8caba5e4-0fd7-4b12-aaa4-068d5194c32a?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790844286&response-content-disposition=attachment%3Bfilename%3D%22CTE2.jpg%22&response-content-type=image%2Fjpeg&Signature=PseNVbTcnEVp%2F688ovAd5%2F%2FoU28%3D" width="330">
+                <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/8caba5e4-0fd7-4b12-aaa4-068d5194c32a?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790844286&response-content-disposition=attachment%3Bfilename%3D%22CTE2.jpg%22&response-content-type=image%2Fjpeg&Signature=PseNVbTcnEVp%2F688ovAd5%2F%2FoU28%3D" width="570">
                 <br><br>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -135,7 +145,7 @@
         </div> 
     </div>
     <div class="col-sm-4 slideanim">
-    <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/df488156-6ac9-456a-bc0c-787ac3d391bf?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790844286&response-content-disposition=attachment%3Bfilename%3D%22Examples%2520of%2520Work-Based%2520Learning.jpg%22&response-content-type=image%2Fjpeg&Signature=ubnq0NVyrOppxkUlhES%2FYKWa%2FKM%3D" width="300px" data-toggle="modal" data-target="#2Modal"/>
+    <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/df488156-6ac9-456a-bc0c-787ac3d391bf?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790844286&response-content-disposition=attachment%3Bfilename%3D%22Examples%2520of%2520Work-Based%2520Learning.jpg%22&response-content-type=image%2Fjpeg&Signature=ubnq0NVyrOppxkUlhES%2FYKWa%2FKM%3D" width="230px" data-toggle="modal" data-target="#2Modal"/>
             <!-- Modal -->
        <div id="2Modal" class="modal slideanim" role="dialog">
          <div class="modal-dialog">
@@ -145,7 +155,7 @@
               <button type="button" class="close" data-dismiss="modal">&times;</button>               
             </div>
             <div class="modal-body text-center">
-                <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/df488156-6ac9-456a-bc0c-787ac3d391bf?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790844286&response-content-disposition=attachment%3Bfilename%3D%22Examples%2520of%2520Work-Based%2520Learning.jpg%22&response-content-type=image%2Fjpeg&Signature=ubnq0NVyrOppxkUlhES%2FYKWa%2FKM%3D" width="340">
+                <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/df488156-6ac9-456a-bc0c-787ac3d391bf?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790844286&response-content-disposition=attachment%3Bfilename%3D%22Examples%2520of%2520Work-Based%2520Learning.jpg%22&response-content-type=image%2Fjpeg&Signature=ubnq0NVyrOppxkUlhES%2FYKWa%2FKM%3D" width="570">
                 <br><br>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -156,22 +166,22 @@
     </div>
   </div>
 </div>
+<!-- end of CTE -->
 
-<!-- Container (LIFE AT HILLCREST Section) -->
-<div id="hillcrest life"  class="container-fluid text-center">
-  
-  <h2>Life at Hillcrest</h2>
+<!-- LIFE AT HILLCREST  -->
 
-  <br>
+<div class="bg"></div>
+<div id="hillcrest-life" class="jumbotron text-center">
+  <h1>Life @ Hillcrest</h1>  
+</div>
+<div class="container-fluid text-center bg-grey">  
   <div class="row slideanim">
     <div class="col-sm-4">
-      
       <h4>1</h4>
       <p>Every student enters into one of our Small Learning Communities (SLC) where they will grow their academic abilities and individual talents. Each SLC consists of a Director and Guidance Counselor to ensure academic success.</p>
     </div>
     <div class="col-sm-4">
-      
-      <h4>2</h4>
+     <h4>2</h4>
       <p>Career and Technical Education (CTE) programs in Virtual Enterprise and Certified Nursing Assistance.</p>
     </div>
     <div class="col-sm-4">      
@@ -222,12 +232,17 @@
     </div>   
   </div>
 </div>
-<!--Container (AP FOR ALL)-->
-<div id="ap" class="container-fluid bg-grey">
+
+<!-- end of LIFE AT HILLCREST -->
+
+<!--AP FOR ALL-->
+<div class="bg"></div>
+<div id="ap" class="jumbotron text-center">
+  <h1>AP For All</h1>  
+</div>
+<div class="container-fluid bg-grey">
   <div class="row">
-    
-    <div class="col-sm-8">
-      <h2>AP For All</h2>
+   <div class="col-sm-8">      
       <h4><strong>Letter to Guardian</strong></h4>
       <h4>Dear parent/guardian,</h4>
       <h4>As you know, Hillcrest High School is committed to fostering the highest quality learning experience
@@ -265,17 +280,17 @@ rigorous academic courses that support them in their pathway towards college.
        <br>
        Equal Opportunity Schools and Office of Equity and Access
      </h4>
-
     </div>
-   
-  </div>
+   </div>
 </div>
+<!-- end of AP FOR ALL -->
 
-<!-- Container (AP Courses Section) -->
-<div id="ap c" class="container-fluid text-center">
-  <h2>AP COURSES</h2>
-
-  <br>
+<!-- AP Courses-->
+<div class="bg"></div>
+<div id="ap-c" class="jumbotron text-center">
+  <h1>AP Courses</h1>  
+</div>
+<div id="ap-c" class="container-fluid text-center bg-grey"> 
   <div class="row slideanim">
     <div class="col-sm-4">      
       <h4>1</h4>
@@ -287,7 +302,7 @@ rigorous academic courses that support them in their pathway towards college.
     </div>
     <div class="col-sm-4">     
       <h4>3</h4>
-      <p>Calculus</p>
+      <p>Calculus AB</p>
     </div>
   </div>
   <br><br>
@@ -326,31 +341,32 @@ rigorous academic courses that support them in their pathway towards college.
       <h4>10</h4>
       <p>World History</p>
     </div>
-    
-  </div>     
- 
-</div>
+ </div>     
+ </div>
+<!-- end of AP classes-->
 
-<!--Container (Non-AP Courses Section)-->
-<div id="non-ap" class="container-fluid bg-grey">
+<!-- Courses-->
+<div class="bg"></div>
+<div id="regular c" class="jumbotron text-center">
+  <h1>Regular Courses</h1>  
+</div>
+<div class="container-fluid bg-grey">
   <div class="row">
-    
-    <div class="col-sm-8">
-      <h2>Non-AP Courses</h2>
+   <div class="col-sm-8">     
       <h4>Students who do not qualify for AP courses must earn at least two years of foreign language credits in addition to
       taking basic classes.
      </h4>
-
     </div>
-   
-  </div>
+   </div>
 </div>
+<!-- end of courses -->
 
-<!-- Container (Non-AP Foreign Language Section) -->
-<div id="foreign language" class="container-fluid text-center">
-  <h2>NON-AP FOREIGN LANGUAGE COURSES</h2>
-
-  <br>
+<!--Foreign Language -->
+<div class="bg"></div>
+<div id="foreign language" class="jumbotron text-center">
+  <h1>Foreign Language</h1>  
+</div>
+<div class="container-fluid text-center bg-grey">
   <div class="row slideanim">
     <div class="col-sm-4">      
       <h4>1</h4>
@@ -365,13 +381,16 @@ rigorous academic courses that support them in their pathway towards college.
       <p>Japanese</p>
     </div>
   </div>    
- 
 </div>
+<!-- end of Foreign Language -->
 
-<!--Container (Textbooks Section)-->
-<div id="textbooks" class="container-fluid bg-grey">
+<!--Textbooks-->
+<div class="bg"></div>
+<div id="textbooks" class="jumbotron text-center">
+  <h1>Textbooks</h1>  
+</div>
+<div class="container-fluid bg-grey">
   <div class="row">
-    
     <div class="col-sm-8">      
       <h2>MATH TEXTBOOKS</h2>
       <h4>For online access to Integrated Algebra, Geometry, and <br>Algebra 2/Trigonometry textbooks, go to: <a href="http://www.phschool.com" target="about_blank">www.phschool.com</a></h4>
@@ -395,11 +414,10 @@ rigorous academic courses that support them in their pathway towards college.
       <p>PHMATC09NTENGMT</p>
     </div>
     <div class="col-sm-4">     
-      <h4>Algebra 2 Trigonometry</h4>
+      <h4>Algebra 2 Trig.</h4>
       <p>PHMASE07NTENA2T</p>
     </div>
-
-  </div> 
+</div> 
 
   <h2>Science Textbooks</h2>  
   <h4>Science Textbooks for regents classes are available online so <br>students have access to these books 24/7.  To access the textbook <br> locate the course below to find the website link. </h4>
@@ -407,8 +425,7 @@ rigorous academic courses that support them in their pathway towards college.
   <h4>Parents who would like to have a related text for reference at home <br>
    may request one from the child’s science teacher.</h4>
 
-    
-  <div class="row slideanim">
+<div class="row slideanim">
     <div class="col-sm-4">  
 
       <h4>Living Environment</h4>
@@ -452,205 +469,314 @@ rigorous academic courses that support them in their pathway towards college.
     <br><br><br><br><br><br><br><hr> 
 
     <h4 align="right">If you have any questions please contact David Ricaurte, Assistant Principal Supervision - Science & Health Careers at <a href="mailto:DRicaurte@hillcresths.org?Subject=Science%20Textbook%20Question" target="_top">DRicaurte@hillcresths.org</a>(718) 658-5407 EXT 1167 <strong>|</strong> Rios, Assistant Principal - Math at <a href="mailto:jrios7@hillcresths.org?Subject=Science%20Textbook%20Question" target="_top">jrios7@hillcresths.org</a>  or call (718) 658-5407 - EXT. 1173 <strong>|</strong>  Kevin Meichsner, Assistant Principal - Social Studies (IA) at <a href="mailto:KMeichsner@schools.nyc.gov?Subject=Science%20Textbook%20Question" target="_top">KMeichsner@schools.nyc.gov</a> or call (718) 658-5407 - EXT 1162</h4>  
-
-
+</div>
     </div>
-    </div>
-    <br><br>
+    <br><br><br><br>
     <div class="col-sm-4 slideanim">
     <img src="http://logok.org/wp-content/uploads/2016/01/Pearson-Logo-logotype-Horizontal.png" width="300px"/>
     </div>
-    
   </div>
 </div>
+<!-- end of TEXTBOOKS -->
 
-
-
-<!-- Container (Extracurricular Section) -->
-<div id="extracurricular"  class="container-fluid">
-  <div class="text-center">  
-  <h2>Extracurricular Activities</h2>
-  </div>
-  <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Extracurricular Classes</h1>
-        </div>
-        <div class="panel-body">
-          <p>*Virtual Enterprise
-          <br>
-          *Engineering
-          <br>
-          *Virtual Enterprise
-          <br>
-          *CADD 
-          <br>
-          *Pre-Med
-          <br>
-          *Anatomy
-          <br>
-          *Microbiology
-          <br>
-          *Medical Lab
-          <br>
-          *Film Studies
-          <br>
-          *Film Making
-          <br>
-          *Keyboard Ensemble
-          <br>
-          *Choir
-          <br>
-          *Mixed Chorus
-          <br>
-          *Drumline Ensemble
-          <br>
-          *Studio Art
-          <br>          
-          *Graphic Design
-          <br>
-          *Health Care
-          <br>          
-          *Clinical
-          <br>
-          *CNA
-          <br>
-          *Sports Medicine
-          <br>
-          *Stage Production
-          <br>
-          *Musical Theatre
-          <br>
-          *CISCO
-          <br>
-          *Computer Programing
-          <br>
-          *Criminal Justice
-          <br>
-          *Constitutional Law
-          <br>
-          *Legal Research
-          <br>
-          *Beginner Band
-          <br>
-          *Advanced Band
-          <br>
-          *Strings Ensemble
-          <br>
-          *Spanish
-          <br>
-          *French
-          <br>
-          *Philosophy
-          <br>
-          *Forensic and Law</p>
-        </div>
-        
-      </div>      
-    </div>     
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Clubs</h1>
-        </div>
-    <div class="panel-body">
-          <p>
-            *HOSA
-            <br>
-            *Model United Nations
-            <br>
-            *CADD
-            <br>
-            *Mock Trial
-            <br>
-            *Debate Team
-            <br>
-            *Moot Court
-            <br>
-            *Print Newspaper
-            <br>
-            *Website Newspaper
-            <br>
-            *Media Studies
-            <br>
-            *Creative Writing
-            <br>
-            *PERC/TAS
-            <br>
-            *Muslim Association
-            <br>
-            *Girl Up
-            <br>
-            *Japanese
-            <br>
-            *Ping Pong
-            <br>
-            *Chess
-            <br>
-            *Spark
-            <br>
-            *Junior States of America
-            <br>
-            *International Club
-            <br>
-            *Sikh Student Association
-            <br>
-            *Scholars on Point
-            <br>
-            *Bi-Annual School Plays
-            <br>
-            *Model City Council
-            <br>
-            *High School Law Institute at NYU and Columbia University
-            <br>
-            *Winter & Spring Concerts
-            <br>
-            *Guitar
-            <br>
-            *Anime
-            <br>
-            *Future Educators of America
-            <br>
-            *Junior Achievement
-            <br>
-            *Read Alliances
-            <br>
-            *Teacher Assistance Program
-            <br>
-            *Gay Straight Alliance
-            <br>
-            *Red Cross Club
-            <br>
-            *Yearbook
-            <br>
-            *ARISTA
-            <br>
-            *National Honor Society
-            <br>
-            *Student Organization
-            <br>
-            *Leadership
-            <br>
-            *Council for Unity
-          </p>        
-        </div>
-       
-      </div>      
-    </div>       
-   
-      
-  </div>
-
-  
+<!--Extracurricular-->
+<<div class="bg"></div>
+<div id="extracurricular" class="jumbotron text-center">
+  <h1>Extracurricular Activities</h1>  
 </div>
+<div class="bg"></div>
+<div id="extra classes" class="jumbotron text-center">
+  <h1>Extracurricular Classes</h1>  
+</div>
+<div class="container-fluid text-center bg-grey">
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://blogs-images.forbes.com/sap/files/2014/12/venterprise.jpg?width=500')">Virtual Enterprise</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('https://images.arcadis.com/media/E/4/5/%7BE453A20C-00E2-4AB1-A1BE-04009A071128%7DEngineering%20Main.jpg?width=1583&height=611&mode=crop&anchor=top');">Engineering</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://tutorial45.com/wp-content/uploads/2015/07/best-cad-software1.png');">CAD</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://www.fastweb.com/uploads/article_photo/photo/2036218/crop635w_medical-school-and-pre-med-scholarships.png');">Pre-Med</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('https://medlineplus.gov/images/Anatomy.jpg');">Anatomy</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('https://www.bls.gov/ooh/images/1982.jpg');">Microbiology</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('https://www.colourbox.com/preview/2349217-medical-laboratory-flasks-on-black-background.jpg');">Medical Lab</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://www.merrimack.edu/live/image/gid/175/width/731/height/314/crop/1/12177_film-background-1334067869u9d.jpg');">Film Studies</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('https://ak5.picdn.net/shutterstock/videos/14390059/thumb/1.jpg');">Film Making</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('https://static.roland.com/products/rd-2000/features/images/features_ensemble_sounds.jpg');">Keyboard Ensemble</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://chnetwork.org/wp-content/uploads/2016/05/web-choir-black-background-igor-bulgarin-shutterstock_164154926.jpg');">Choir</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('https://s-media-cache-ak0.pinimg.com/736x/ea/0e/f4/ea0ef44d800aa07722c25b1a6db58800.jpg');">Mixed Chorus</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://drumlineapp.com/images/slides/memory-02.jpg');">Drumline Ensemble</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('https://previews.123rf.com/images/bykobrinphoto/bykobrinphoto1508/bykobrinphoto150800049/43728650-Girl-with-colored-face-painted-Art-beauty-image-Picture-taken-in-the-studio-on-a-black-background--Stock-Photo.jpg');">Studio Art</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://simplywallpapers.com/thumbs/art-design/black-background-graphic-design-pattern-vectors-2804199-480x320.jpg');">Graphic Design</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://www.photl.com/images/photos/2010/05/13/1734/wm262234tt.jpg');">Health Care</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://us.123rf.com/450wm/audriusmerfeldas/audriusmerfeldas1502/audriusmerfeldas150200052/36978558-stethoscope-isolated-on-the-black-background.jpg?ver=6');">Clinical</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('https://www.americannursetoday.com/wp-content/uploads/2014/07/medical-symbold-blue-background.jpg');">CNA</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://louisvillebones.com/wp-content/uploads/2014/11/banner.jpg');">Sports Medicine</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('https://thumbs.dreamstime.com/t/stage-drapes-grunge-background-8159616.jpg');">Stage Production</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://cdn.wallpapersafari.com/29/39/qC0Wfs.png');">Musical Theatre</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('https://s-media-cache-ak0.pinimg.com/originals/e1/19/38/e1193805e23aa1b86cd1b91eafa77dcc.png');">CISCO</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://insidetech.monster.com/nfs/insidetech/attachment_images/0002/0915/code-ss-250_crop380w.jpg?1278722943');">Computer Programming</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://www.criminaljustice.com/wp-content/uploads/2013/04/police-lights.jpg');">Criminal Justice</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://static.squarespace.com/static/546510dfe4b05273da38fdcb/t/5465137fe4b060a07df67dc4/1415910271262/scozzaro_law_background.jpg');">Consitutional Law</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://www.robertwbornhoft.com/wp-content/uploads/2012/12/scales_of_justice.jpg');">Legal Research</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://s5.favim.com/610/51/Favim.com-band-background-color-484401.jpg');">Beginner Band</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('https://www.colourbox.com/preview/1653795-dark-background-with-brown-twigs-on-the-red-band.jpg');">Advanced Band</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('https://us.123rf.com/450wm/bigal04uk/bigal04uk1507/bigal04uk150700010/42711504-traditional-violin-scroll-classically-lit-against-a-black-background.jpg?ver=6');">Strings Ensemble</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('https://thumbs.dreamstime.com/z/spanish-background-19386954.jpg');">Spanish</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('https://www.colourbox.com/preview/18257656-eiffel-tower-paris-made-up-a-lot-of-diamonds.jpg');">French</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://preparingfortheperfectstorm.com/perfectstorm/wp-content/uploads/2013/05/background-wolfbw2.jpg');">Philosophy</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://aboutforensics.co.uk/wp-content/uploads/2015/05/DNA-Featured-Image-661x350.jpg');">Forensics and Law</h1>
+  </div>
+</div>
+</div><br>
 
-<!--Container (VEI Section)-->
-<div id="vei" class="container-fluid bg-grey">
+<div id="clubs" class="jumbotron text-center">
+  <h1>Clubs</h1>  
+</div>
+<div class="container-fluid text-center bg-grey">
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://cal-hosa.org/wp-content/uploads/2014/07/hosa-background.png');">HOSA</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://preparingfortheperfectstorm.com/perfectstorm/wp-content/uploads/2013/05/background-wolfbw2.jpg');">Model United Nations</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://aboutforensics.co.uk/wp-content/uploads/2015/05/DNA-Featured-Image-661x350.jpg');">CAD</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://cal-hosa.org/wp-content/uploads/2014/07/hosa-background.png');">Mock Trial</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://preparingfortheperfectstorm.com/perfectstorm/wp-content/uploads/2013/05/background-wolfbw2.jpg');">Debate Team</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://aboutforensics.co.uk/wp-content/uploads/2015/05/DNA-Featured-Image-661x350.jpg');">Moot Court</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://cal-hosa.org/wp-content/uploads/2014/07/hosa-background.png');">Print Newspaper</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://preparingfortheperfectstorm.com/perfectstorm/wp-content/uploads/2013/05/background-wolfbw2.jpg');">Website Newspaper</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://aboutforensics.co.uk/wp-content/uploads/2015/05/DNA-Featured-Image-661x350.jpg');">Media Studies</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://cal-hosa.org/wp-content/uploads/2014/07/hosa-background.png');">Creative Writing</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://preparingfortheperfectstorm.com/perfectstorm/wp-content/uploads/2013/05/background-wolfbw2.jpg');">PERC/TAS</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://aboutforensics.co.uk/wp-content/uploads/2015/05/DNA-Featured-Image-661x350.jpg');">Muslim Association</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://cal-hosa.org/wp-content/uploads/2014/07/hosa-background.png');">Girl Up</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://preparingfortheperfectstorm.com/perfectstorm/wp-content/uploads/2013/05/background-wolfbw2.jpg');">Japanese</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://aboutforensics.co.uk/wp-content/uploads/2015/05/DNA-Featured-Image-661x350.jpg');">Ping Pong</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://cal-hosa.org/wp-content/uploads/2014/07/hosa-background.png');">Chess</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://preparingfortheperfectstorm.com/perfectstorm/wp-content/uploads/2013/05/background-wolfbw2.jpg');">Spark</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://aboutforensics.co.uk/wp-content/uploads/2015/05/DNA-Featured-Image-661x350.jpg');">Junior States of America</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://cal-hosa.org/wp-content/uploads/2014/07/hosa-background.png');">International Club</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://preparingfortheperfectstorm.com/perfectstorm/wp-content/uploads/2013/05/background-wolfbw2.jpg');">Sikh Student Association</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://aboutforensics.co.uk/wp-content/uploads/2015/05/DNA-Featured-Image-661x350.jpg');">Scholars On Point</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://cal-hosa.org/wp-content/uploads/2014/07/hosa-background.png');">Bi-Annual School Plays</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://preparingfortheperfectstorm.com/perfectstorm/wp-content/uploads/2013/05/background-wolfbw2.jpg');">Model City Council</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://aboutforensics.co.uk/wp-content/uploads/2015/05/DNA-Featured-Image-661x350.jpg');">High School Law Institute at NYU & Columbia University</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://cal-hosa.org/wp-content/uploads/2014/07/hosa-background.png');">Winter & Spring Concerts</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://preparingfortheperfectstorm.com/perfectstorm/wp-content/uploads/2013/05/background-wolfbw2.jpg');">Guitar</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://aboutforensics.co.uk/wp-content/uploads/2015/05/DNA-Featured-Image-661x350.jpg');">Anime</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://cal-hosa.org/wp-content/uploads/2014/07/hosa-background.png');">Future Educators Of America</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://preparingfortheperfectstorm.com/perfectstorm/wp-content/uploads/2013/05/background-wolfbw2.jpg');">Junior Achievement</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://aboutforensics.co.uk/wp-content/uploads/2015/05/DNA-Featured-Image-661x350.jpg');">Read Alliances</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://cal-hosa.org/wp-content/uploads/2014/07/hosa-background.png');">Teacher Assistance Program</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://preparingfortheperfectstorm.com/perfectstorm/wp-content/uploads/2013/05/background-wolfbw2.jpg');">Gay Straight Alliance</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://aboutforensics.co.uk/wp-content/uploads/2015/05/DNA-Featured-Image-661x350.jpg');">Red Cross Club</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://cal-hosa.org/wp-content/uploads/2014/07/hosa-background.png');">Yearbook</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://preparingfortheperfectstorm.com/perfectstorm/wp-content/uploads/2013/05/background-wolfbw2.jpg');">ARISTA</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://aboutforensics.co.uk/wp-content/uploads/2015/05/DNA-Featured-Image-661x350.jpg');">National Honor Society</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://cal-hosa.org/wp-content/uploads/2014/07/hosa-background.png');">National Honor Society</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://preparingfortheperfectstorm.com/perfectstorm/wp-content/uploads/2013/05/background-wolfbw2.jpg');">Student Organization</h1>
+  </div>
+  <div class="col-sm-4  text-center slideanim" >
+  <h1 class="jumbotron3" style="background-image:url('http://aboutforensics.co.uk/wp-content/uploads/2015/05/DNA-Featured-Image-661x350.jpg');">Leadership</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-12  text-center slideanim">
+  <h1 class="jumbotron3" style="background-image:url('http://cal-hosa.org/wp-content/uploads/2014/07/hosa-background.png');">Council For Unity</h1>
+  </div>  
+</div> 
+</div>   
+<!-- end of Extracurricular -->
+
+<!--VEI -->
+<div id="vei" class="jumbotron text-center">
+  <h1>VEI</h1>  
+</div>
+<div class="container-fluid bg-grey">
   <div class="row">
     
     <div class="col-sm-8">
-      <h2>Virtual Enterprises International (VEI) History</h2>
+      <h2>VEI (Virtual Enterprises International)</h2>
+      <h2>History</h2>
       <h4>After visiting practice firms in Vienna, Austria, and observing the benefits of this instructional model, the New York City Department of Education spearheaded the implementation of Virtual Enterprises in seven New York City public high schools, where it became the first and only program of its kind in the U.S.</h4>
       <h4>Since its inception, VEI has been implemented in:</h4>
       <h4>*500 secondary and post-secondary schools nationwide, serving over 10,000 students annually
@@ -685,27 +811,45 @@ rigorous academic courses that support them in their pathway towards college.
 
      <h4>These are some of the major competitions VE students are involved in:</h4>
 
-     <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/ad95ff0b-5000-477b-afdf-534de417bb31?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790848797&response-content-disposition=attachment%3Bfilename%3D%22Virtual%2520Enterprise.jpg%22&response-content-type=image%2Fjpeg&Signature=WbjAu8vB88wf9XyocFMBFh%2BETGw%3D" width="300" data-toggle="modal" data-target="#7Modal">
+      <div class="row" style="background-color: #01283e;">    
+    <div class="col-sm-8" style="text-align: left;">      
+       <h4 style=" color:  #89b6c4; font-size: 25px;">2015 YOUTH BUSINESS SUMMIT</h4>     
+    </div>
+    </div>
+     <div class="row" style="background-color: #68cabc;">    
+    <div class="col-sm-4 slideanim">     
+     <h4 style="color: #054845;">April 13</h4>
+    </div>
+    <div class="col-sm-8">      
+      <h4 style="color: #054845; font-style: italic;">GLOBAL BUSINESS CHALLENGE</h4>      
+    </div>
+    </div>
+    <div class="row" style="background-color: #25c1ab;">    
+    <div class="col-sm-4 slideanim">     
+     <h4 style="color: #054845;">April 14</h4>
+    </div>
+    <div class="col-sm-8">      
+      <h4 style="color: #054845; font-style: italic;">NATIONAL BUSINESS PLAN COMPETITION</h4>      
+    </div>
+    </div>
+    <div class="row" style="background-color: #01908f;">    
+    <div class="col-sm-4 slideanim">     
+     <h4 style="color: #054845;">April 15</h4>
+    </div>
+    <div class="col-sm-8">      
+      <h4 style="color: #054845; font-style: italic;">INTERNATIONAL TRADE SHOW</h4>      
+    </div>
+    </div>
+    <div class="row" style="background-color: #01283e;">    
+    <div class="col-sm-4 slideanim">     
+     <h4 style="color: #8fb7ca;">NEW YORK CITY</h4>
+    </div>
+    <div class="col-sm-8" style="text-align: right;">      
+      <h4 style="color: #8fb7ca;">#2015YOUTHBUSINESSSUMMIT</h4>      
+    </div>
+    </div>
 
-      <!-- Modal -->
-       <div id="7Modal" class="modal slideanim" role="dialog">
-         <div class="modal-dialog">
-            <!-- Modal content-->
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal">&times;</button>               
-            </div>
-            <div class="modal-body text-center">
-                <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/ad95ff0b-5000-477b-afdf-534de417bb31?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790848797&response-content-disposition=attachment%3Bfilename%3D%22Virtual%2520Enterprise.jpg%22&response-content-type=image%2Fjpeg&Signature=WbjAu8vB88wf9XyocFMBFh%2BETGw%3D" width="340">
-                <br><br>
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            </div>
-            <hr>
-          </div>
-         </div>
-        </div> 
-
-       
+     <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/ad95ff0b-5000-477b-afdf-534de417bb31?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790848797&response-content-disposition=attachment%3Bfilename%3D%22Virtual%2520Enterprise.jpg%22&response-content-type=image%2Fjpeg&Signature=WbjAu8vB88wf9XyocFMBFh%2BETGw%3D" width="650" data-toggle="modal" data-target="#veiModal">         
 
      <h2>Competitions:</h2>
 
@@ -758,20 +902,39 @@ rigorous academic courses that support them in their pathway towards college.
      <h4><strong>Job Readiness Workshop:</strong> Business professionals prepare VE students for work by reviewing their resumes and by providing guidance on interviewing techniques and proper business attire. Students who have attended a job readiness workshop become eligible for a <strong>paid internship</strong> after school, in the summer, or both.</h4>
 
      <h4><strong>College Now:</strong> Students earn transferrable <strong>college credit</strong> through Hillcrest’s College Now Program. Classes are held at the college campus or at Hillcrest HS. </h4>
-
-
-    </div>
-   
+      </div>
    </div>
 </div>
 
-<!-- Container (Stay Informed Section) -->
-<div id="stay informed" class="container-fluid text-center bg-grey">
-  <h2>STAY INFORMED</h2>
+        <!-- Modal -->
+       <div id="veiModal" class="modal slideanim" role="dialog">
+         <div class="modal-dialog">
+            <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>                           
+            </div>
+            <div class="modal-body text-center">
+                <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/ad95ff0b-5000-477b-afdf-534de417bb31?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790848797&response-content-disposition=attachment%3Bfilename%3D%22Virtual%2520Enterprise.jpg%22&response-content-type=image%2Fjpeg&Signature=WbjAu8vB88wf9XyocFMBFh%2BETGw%3D" width="300">
+                <br><br>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            <hr>
+          </div>
+         </div>
+        </div>          
+       </div>  
+<!-- end of VEI -->
+
+<!--Stay Informed -->
+<div id="stay informed" class="jumbotron text-center">
+  <h1>Stay Informed</h1>  
+</div>
+<div class="container-fluid text-center bg-grey">  
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
-         <img src="https://pupilpath.skedula.com/img/mobile/pupilpath.png" alt="pupilpath" width="400px" height="300px">
+         <img src="https://pupilpath.skedula.com/img/mobile/pupilpath.png" alt="pupilpath" width="230px" height="300px">
         <p><strong>PupilPath</strong></p>
         <p>Follow your child's academic progress and much more using <strong>PupilPath</strong>. Register before using <strong>PupilPath</strong>. To register, you must have the following information:
         <br>
@@ -790,27 +953,23 @@ rigorous academic courses that support them in their pathway towards college.
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="https://sites.google.com/a/brittonkill.k12.ny.us/english/_/rsrc/1415211539578/castle-learning/castle%20learning%20smaller.png" alt="castle-learning" width="400" height="300">
+        <img src="https://sites.google.com/a/brittonkill.k12.ny.us/english/_/rsrc/1415211539578/castle-learning/castle%20learning%20smaller.png" alt="castle-learning" width="230" height="300">
         <p><strong>Castle Learning</strong></p>
-        <p>Castle Learning offers a comprehensive instructional support platform for in class, homework, review, and testing available both online and offline. Your child may be assigned homework(s) or test(s) through this service. Your child will be registered into this service in school. You may choose to obtain the log in information from the school.</p>
+        <p>Your child may be assigned homework(s)/test(s)/quiz(s) through this service. Your child will be registered into this service in school.</p>
         <hr>
         <a href="http://www.castlelearning.com/">Click Here</a>
       </div>
     </div>
-    
-   
-    </div>
-    
-     
-  </div><br>     
-  
-
-<!-- Container (Highlights Section) -->
-
-<div id="highlights" class="container-fluid">
-  <div class="text-center">  
-  <h2>Some Highlights</h2>
   </div>
+ </div>
+<!-- Stay Informed -->
+ <br>     
+
+<!-- Highlights -->
+<div id="highlights" class="jumbotron text-center">
+  <h1>Some Highlights</h1>  
+</div>
+<div class="container-fluid bg-grey"> 
   <div class="row slideanim">
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
@@ -818,7 +977,7 @@ rigorous academic courses that support them in their pathway towards college.
           <h1>Science Lab</h1>
         </div>
         <div class="panel-body">
-          <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/590972ab-a03c-4aa5-b4c5-e82e65ab5fc2?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790842213&response-content-disposition=attachment%3Bfilename%3D%22schoollife1.jpg%22&response-content-type=image%2Fjpeg&Signature=8d89Vh0pDyeFzYBwVo6v%2BCuc9So%3D" width="250px" data-toggle="modal" data-target="#4Modal"/>
+          <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/590972ab-a03c-4aa5-b4c5-e82e65ab5fc2?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790842213&response-content-disposition=attachment%3Bfilename%3D%22schoollife1.jpg%22&response-content-type=image%2Fjpeg&Signature=8d89Vh0pDyeFzYBwVo6v%2BCuc9So%3D" width="230px" data-toggle="modal" data-target="#4Modal"/>
 
              <!-- Modal -->
        <div id="4Modal" class="modal slideanim" role="dialog">
@@ -830,16 +989,15 @@ rigorous academic courses that support them in their pathway towards college.
               <h2>Science Lab</h2>               
             </div>
             <div class="modal-body text-center">
-                <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/590972ab-a03c-4aa5-b4c5-e82e65ab5fc2?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790842213&response-content-disposition=attachment%3Bfilename%3D%22schoollife1.jpg%22&response-content-type=image%2Fjpeg&Signature=8d89Vh0pDyeFzYBwVo6v%2BCuc9So%3D" width="300">
+                <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/590972ab-a03c-4aa5-b4c5-e82e65ab5fc2?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790842213&response-content-disposition=attachment%3Bfilename%3D%22schoollife1.jpg%22&response-content-type=image%2Fjpeg&Signature=8d89Vh0pDyeFzYBwVo6v%2BCuc9So%3D" width="570">
                 <br><br>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
             <hr>
           </div>
          </div>
-        </div> 
-          
-        </div>
+        </div>          
+       </div>
         <div class="panel-footer">
           
           <p>Ms. Piil works with students in Science Lab.</p>
@@ -853,7 +1011,7 @@ rigorous academic courses that support them in their pathway towards college.
           <h1>Shakespeare Competition</h1>
         </div>
         <div class="panel-body">
-          <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/6731558c-df8f-45a5-84be-ac7f7f12132b?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790842213&response-content-disposition=attachment%3Bfilename%3D%22schoollife2.jpg%22&response-content-type=image%2Fjpeg&Signature=1sFE%2Fou%2F5%2BltvQGE7sqITpo30Yk%3D" width="250px" data-toggle="modal" data-target="#5Modal"/>
+          <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/6731558c-df8f-45a5-84be-ac7f7f12132b?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790842213&response-content-disposition=attachment%3Bfilename%3D%22schoollife2.jpg%22&response-content-type=image%2Fjpeg&Signature=1sFE%2Fou%2F5%2BltvQGE7sqITpo30Yk%3D" width="230px" data-toggle="modal" data-target="#5Modal"/>
 
              <!-- Modal -->
        <div id="5Modal" class="modal slideanim" role="dialog">
@@ -865,7 +1023,7 @@ rigorous academic courses that support them in their pathway towards college.
               <h2>Shakespeare Competition</h2>              
             </div>
             <div class="modal-body text-center">
-                <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/6731558c-df8f-45a5-84be-ac7f7f12132b?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790842213&response-content-disposition=attachment%3Bfilename%3D%22schoollife2.jpg%22&response-content-type=image%2Fjpeg&Signature=1sFE%2Fou%2F5%2BltvQGE7sqITpo30Yk%3D" width="300">
+                <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/6731558c-df8f-45a5-84be-ac7f7f12132b?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790842213&response-content-disposition=attachment%3Bfilename%3D%22schoollife2.jpg%22&response-content-type=image%2Fjpeg&Signature=1sFE%2Fou%2F5%2BltvQGE7sqITpo30Yk%3D" width="570">
                 <br><br>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -888,7 +1046,7 @@ rigorous academic courses that support them in their pathway towards college.
           <h1>Stony Brook University</h1>
         </div>
         <div class="panel-body">
-          <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/7a942d24-6b98-4a79-a788-eb43d5dbdeac?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790842213&response-content-disposition=attachment%3Bfilename%3D%22Health%2520Sciences.jpg%22&response-content-type=image%2Fjpeg&Signature=rUCZUmovuTaR2PKpf2pbpid9j3w%3D" width="250px" data-toggle="modal" data-target="#6Modal"/>
+          <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/7a942d24-6b98-4a79-a788-eb43d5dbdeac?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790842213&response-content-disposition=attachment%3Bfilename%3D%22Health%2520Sciences.jpg%22&response-content-type=image%2Fjpeg&Signature=rUCZUmovuTaR2PKpf2pbpid9j3w%3D" width="230px" data-toggle="modal" data-target="#6Modal"/>
                 <!-- Modal -->
        <div id="6Modal" class="modal slideanim" role="dialog">
          <div class="modal-dialog">
@@ -899,7 +1057,7 @@ rigorous academic courses that support them in their pathway towards college.
               <h2>Stony Brook University</h2>              
             </div>
             <div class="modal-body text-center">
-                <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/7a942d24-6b98-4a79-a788-eb43d5dbdeac?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790842213&response-content-disposition=attachment%3Bfilename%3D%22Health%2520Sciences.jpg%22&response-content-type=image%2Fjpeg&Signature=rUCZUmovuTaR2PKpf2pbpid9j3w%3D" width="300">
+                <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/resources/7a942d24-6b98-4a79-a788-eb43d5dbdeac?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790842213&response-content-disposition=attachment%3Bfilename%3D%22Health%2520Sciences.jpg%22&response-content-type=image%2Fjpeg&Signature=rUCZUmovuTaR2PKpf2pbpid9j3w%3D" width="570">
                 <br><br>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -917,26 +1075,21 @@ rigorous academic courses that support them in their pathway towards college.
     </div>      
   </div> 
 </div>
+<!-- end of Highlights -->
 
-<div class="jumbotron text-center slideanim">
-  <h1>Home Of The Hawks</h1>
-  
+<!-- Banner -->
+<div id="end banner" class="jumbotron text-center">
+  <h1 style="background-color: white; border-radius: 10px; color: purple;">Home Of The Hawks</h1>  
 </div>
- <div class="slideanim text-center">     
-        <img src="http://schools.nyc.gov/NR/rdonlyres/22260786-0759-4439-B85E-CD578B8A3C07/199609/Picture1.jpg" height="250px"/>        
-     
- </div>
+<!-- end of Banner -->
 
+<!-- footer -->
 <footer class="container-fluid text-center">
 <a href="#main" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
-  <p>&copy; Copyright Hillcrest High School</p> 
-  <a href="icons.html">Icons Used</a> &#8226; <a href="team.html">Team</a>
+  <p>&copy; Copyright Hillcrest High School</p>  
+  <a href="icons.html">Icons Used</a> &#8226; <a href="team.html">Web Development Team</a>
 </footer>
-
-
-
+<!-- end of footer -->
 
 </body>
 </html>
-
-

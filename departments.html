@@ -1,92 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <title>Home | HHS</title>
+  <title>Departments | Hillcrest High School</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="fav.ico">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="index.css"> 
+<!-- favicon -->
+  <link rel="icon" type="image/png" href="img/fav.ico">
+<!-- end of favicon -->
+
+<!-- Boostrap and font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css"> 
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="index.json"></script>
+<!-- end of Bootstrap and font awesome -->
+
+<!-- link CSS and JQuery -->
+<link rel="stylesheet" href="css/index.css"> 
+<script src="js/index.json"></script>
+<!-- end of CSS and JQuery -->
 </head>
 
 <body id="main" data-spy="scroll" data-target=".navbar" data-offset="60">
-
+<!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>         
       </button>
-      <a class="navbar-brand" href="index.html"><img src="fav.ico" width="50px" /></a>
+      <a class="navbar-brand" href="main.html"><img src="img/fav.ico" width="50px" /></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="about.html">ABOUT</a></li>
-        <li><a href="slcs.html">SLCS</a></li>
+        <li><a href="slc.html">SLCs</a></li>
         <li><a href="academics.html">ACADEMICS</a></li>
-        <li><a href="departments.html">DEPARTMENTS</a></li>
+        <li class="active"><a href="departments.html">DEPARTMENTS</a></li>
         <li><a href="highlighter.html">HIGHLIGHTER</a></li>
         <li><a href="sports.html">SPORTS</a></li>
         <li><a href="contact.html">CONTACT</a></li>
-       
-        
-      </ul>
+        <li><a href="college.html">COLLEGE</a></li>
+     </ul>
     </div>
   </div>
 </nav>
+<!-- end of Navigation -->
 
-
-
-<div id="title" class="jumbotron text-center">
+<!-- Banner -->
+<div class="bg"></div>
+<div class="jumbotron text-center">
   <h1>Departments</h1>
-  <h1>@</h1>
   <p>Hillcrest High School</p>
-  <p> fix departments nav bar links</p> 
 </div>
+<!-- end of Banner -->
 
+<!-- Internal Navigation -->
 <nav class="navbar">
-<div class="container">
- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sportsNavbar">
+  <div class="container">
+    <a class="navbar-brand" data-toggle="collapse" data-target="#departmentsNavbar">Menu</a> 
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#departmentsNavbar">
         <span class="icon-bar"><img src="img/menu.png" width="25px"></span>                      
-      </button>
-    <div class="navbar-header">      
-      <a class="navbar-brand" href="sports.html">DEPARTMENTS</a>
-    </div>
- 
-    <div class="collapse navbar-collapse text-center" id="sportsNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="#english"><img src="img/departments/english.png" title="English" width="40px"></a></li>
-        <li><a href="#math"><img src="img/departments/math.png" title="Math" width="40px"></a></li>
-        <li><a href="#science"><img src="img/departments/science.png" title="Science" width="40px"></a></li>
-        <li><a href="#foreign language"><img src="img/departments/foreign lang.png" title="Foreign Language" width="40px"></a></li>
-        <li><a href="#social studies"><img src="img/departments/social studies.png" title="Social Studies" width="40px"></a></li>
-        <li><a href="#library"><img src="img/departments/library.png" title="Library" width="45px"></a></li>      
-        
+    </button>     
+    <div class="collapse navbar-collapse text-center" id="departmentsNavbar">
+      <ul class="nav navbar-nav" style="font-size: 20px;">
+        <li><a href="#english">English</a></li>
+        <li><a href="#math">Mathematics</a></li>
+        <li><a href="#science">Science</a></li>
+        <li><a href="#foreign-language">Foreign Language</a></li>
+        <li><a href="#social-studies">Social Studies</a></li>
+        <li><a href="#library">Library</a></button></li>          
       </ul>
-      
     </div>
   </div>
 </nav>
-<hr>
-  <!--English Department Section-->
-<div id="english" class="jumbotron text-center">
+<!-- end of Internal Navigation -->
+<br>
+
+<!--English-->
+<div id="english" class="jumbotron text-center" style="background-image: url(https://images6.alphacoders.com/346/346199.jpg);">
   <h1>English</h1>
-  <h1>@</h1>
   <p>Hillcrest High School</p>
- 
 </div>
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
-    <div class="col-sm-4 slideanim">
+     <div class="col-sm-4 slideanim">
       <img src="img/departments/english.png" width="100px" />
     </div>
     <div class="col-sm-8">
@@ -97,7 +100,7 @@
   </div>
 </div>
 
-<!--Container (English Department Description)-->
+<!-- Description-->
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
     
@@ -117,17 +120,15 @@
   <div class="col-sm-4">
       <h2><a href="mailto:example@example.domain?Subject=Question%20From%20Parent" target="_top">example@example.domain</a></h2>
   </div>
+  </div>
 </div>
+<!-- end of ENGLISH -->
+<br>
 
-</div>
-<hr>
-
-<!--Math Department Section-->
-<div id="math" class="jumbotron text-center">
-  <h1>Math</h1>
-  <h1>@</h1>
+<!--Mathematics-->
+<div id="math" class="jumbotron text-center" style="background-image: url(https://static1.squarespace.com/static/545a8e16e4b018968b9a0698/t/553b0f81e4b0befb83644210/1429933955303/1.jpg?format=1500w);">
+  <h1>Mathematics</h1>
   <p>Hillcrest High School</p>
- 
 </div>
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
@@ -142,7 +143,7 @@
   </div>
 </div>
 
-<!--Container (Math Department Description)-->
+<!-- Description-->
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
     
@@ -162,16 +163,15 @@
   <div class="col-sm-4">
       <h2><a href="mailto:example@example.domain?Subject=Question%20From%20Parent" target="_top">example@example.domain</a></h2>
   </div>
+  </div>
 </div>
+<!-- end of mathematics -->
+<br>
 
-</div>
-<hr>
-<!--Science Department Section-->
-<div id="science" class="jumbotron text-center">
+<!--Science-->
+<div id="science" class="jumbotron text-center" style="background-image: url(http://www.pageresource.com/wallpapers/wallpaper/science-dna-wallcg_1063972.jpg);">
   <h1>Science</h1>
-  <h1>@</h1>
   <p>Hillcrest High School</p>
- 
 </div>
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
@@ -186,7 +186,7 @@
   </div>
 </div>
 
-<!--Container (Science Department Description)-->
+<!--Description-->
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
     
@@ -209,13 +209,13 @@
 </div>
 
 </div>
-<hr>
-<!--Foreign Language Department Section-->
-<div id="foreign language" class="jumbotron text-center">
+<br>
+<!-- end of science -->
+
+<!--Foreign Language-->
+<div id="foreign-language" class="jumbotron text-center" style="background-image: url(https://static1.squarespace.com/static/55a855d0e4b0d2303ed47790/t/570281c6356fb0751509a3bf/1459782088047/);">
   <h1>Foreign Language</h1>
-  <h1>@</h1>
   <p>Hillcrest High School</p>
- 
 </div>
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
@@ -230,7 +230,7 @@
   </div>
 </div>
 
-<!--Container (Foreign Language Department Description)-->
+<!-- Description-->
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
     
@@ -250,16 +250,15 @@
   <div class="col-sm-4">
       <h2><a href="mailto:example@example.domain?Subject=Question%20From%20Parent" target="_top">example@example.domain</a></h2>
   </div>
+  </div>
 </div>
+<!-- end of foreign language -->
+<br>
 
-</div>
-<hr>
-<!--Social Studies Department Section-->
-<div id="social studies" class="jumbotron text-center">
+<!--Social Studies-->
+<div id="social-studies" class="jumbotron text-center" style="background-image: url(http://www.stjosephschoolbg.org/system/teacher_header_images/images/000/000/104/resized/worldmap-worldmap-photos-wallpapers-galleries-full-hd_50290fb555fd4_w1500.jpg?1424646485);">
   <h1>Social Studies</h1>
-  <h1>@</h1>
   <p>Hillcrest High School</p>
- 
 </div>
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
@@ -274,7 +273,7 @@
   </div>
 </div>
 
-<!--Container (Social Studies Department Description)-->
+<!--Description-->
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
     
@@ -294,16 +293,14 @@
   <div class="col-sm-4">
       <h2><a href="mailto:example@example.domain?Subject=Question%20From%20Parent" target="_top">example@example.domain</a></h2>
   </div>
+  </div>
 </div>
-
-</div>
-<hr>
-<!--Library Department Section-->
-<div id="library" class="jumbotron text-center">
+<!-- end of social studies -->
+<br>
+<!--Library -->
+<div id="library" class="jumbotron text-center" style="background-image: url(https://wallpaperscraft.com/image/library_staircase_room_light_wooden_39639_1920x1080.jpg);">
   <h1>Library</h1>
-  <h1>@</h1>
   <p>Hillcrest High School</p>
- 
 </div>
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
@@ -318,7 +315,7 @@
   </div>
 </div>
 
-<!--Container (Library Department Description)-->
+<!--Description-->
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
     
@@ -338,27 +335,23 @@
   <div class="col-sm-4">
       <h2><a href="mailto:example@example.domain?Subject=Question%20From%20Parent" target="_top">example@example.domain</a></h2>
   </div>
+  </div>
 </div>
+<!-- end of Library -->
 
-</div>
+<!-- Banner -->
+<div class="jumbotron text-center">
+  <h1 style="background-color: white; border-radius: 10px; color: purple;">Home Of The Hawks</h1>
+</div><br><br>
+<!--end of Banner -->
 
-<div class="jumbotron text-center slideanim">
-  <h1>Home Of The Hawks</h1>
-  
-</div>
-
-<div class="text-center slideanim">
-      
-  <img src="http://schools.nyc.gov/NR/rdonlyres/22260786-0759-4439-B85E-CD578B8A3C07/199609/Picture1.jpg" height="250px"/>       
-     
-</div>
-
-
+<!-- Footer -->
 <footer class="container-fluid text-center">
 <a href="#main" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
-  <p>&copy; Copyright Hillcrest High School</p>   
-  <a href="icons.html">Icons Used</a> &#8226; <a href="team.html">Team</a>
+  <p>&copy; Copyright Hillcrest High School</p> 
+  <a href="icons.html">Icons Used</a> &#8226; <a href="team.html">Web Development Team</a>
 </footer>
+<!-- end of footer -->
 
 </body>
 </html>
