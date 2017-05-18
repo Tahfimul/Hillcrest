@@ -1,158 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <title>Home | HHS</title>
+<title>Web development team | Hillcrest High School</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="fav.ico">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="index.css"> 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+<!-- favicon -->
+  <link rel="icon" type="image/png" href="img/fav.ico">
+<!-- end of favicon -->
+
+<!-- Boostrap and font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css"> 
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="index.json"></script>
-  
+<!-- end of Bootstrap and font awesome -->
+
+<!-- link CSS and JQuery -->
+<link rel="stylesheet" href="css/index.css"> 
+<script src="js/index.json"></script>
+<!--Timeline Stuff-->
+<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+<script src="js/modernizr.js"></script> <!-- Modernizr -->
+<!-- end of CSS and JQuery -->
 </head>
 
 <body id="main" data-spy="scroll" data-target=".navbar" data-offset="60">
-
+<!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="fav.ico" width="50px" /></a>
+        <span class="icon-bar"></span>         </button>
+      <a class="navbar-brand" href="main.html"><img src="img/fav.ico" width="50px" /></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="about.html">ABOUT</a></li>
-        <li><a href="slcs.html">SLCS</a></li>
+        <li><a href="slc.html">SLCs</a></li>
         <li><a href="academics.html">ACADEMICS</a></li>
         <li><a href="departments.html">DEPARTMENTS</a></li>
         <li><a href="highlighter.html">HIGHLIGHTER</a></li>
         <li><a href="sports.html">SPORTS</a></li>
         <li><a href="contact.html">CONTACT</a></li>
-
-        
-      </ul>
+        <li><a href="college.html">COLLEGE</a></li>
+     </ul>
     </div>
   </div>
 </nav>
+<!-- end of Navigation -->
 
-
-
+<!-- Banner -->
+<div class="bg" style="background-image: url('img/bg/web dev team.png');"></div>
 <div id="title" class="jumbotron text-center">
-  <h1>Website Team</h1>
-  <h1>@</h1>
-  <p>Hillcrest High School</p>
-  <p>Need to add modal Box</p> 
+  <h1>"<"Web Development Team">"</h1>
+  <p>Hillcrest High School</p> 
 </div>
+<!-- end of Banner -->
+
+
+<!-- Team Members -->
 <div id="description" class="container-fluid bg-grey">
-  <div class="row">
-    <div class="col-sm-4">
-      <img src="https://echalk-slate-prod.s3.amazonaws.com/private/schools/3322/site/settings/6b91c70d-0782-4bc8-9102-ebdc25d278aa?AWSAccessKeyId=AKIAJSZKIBPXGFLSZTYQ&Expires=1793990044&response-content-disposition=attachment%3Bfilename%3D%22hillcrest_logo.png%22&response-content-type=image%2Fpng&Signature=MDdnNHkXcAQa%2B19L0lfJs9zx7qk%3D" class="glyphicon glyphicon-globe logo slideanim" width="300px"/>
-    </div>
-    <div class="col-sm-8">
-      <h2>Our Values</h2><br>
-      <h4><strong>MISSION:</strong> Needs description</h4><br>
-      <h4><strong>VISION:</strong> Needs description</h4>
-    </div>
-  </div>
-</div>
-<!--Container (Team Members Section)-->
-<div id="description" class="container-fluid">
  <div class="text-center">
   <h2>Team Members</h2>
-   
- </div>
+</div>
+<!-- 1st member -->
   <div class="row">
     <div class="row">
     <div class="col-sm-4 slideanim">
-      <img src="/Tahfimul.jpg" width="300px" data-toggle="modal" data-target="#member1Modal"/>
-      
+      <img src="img/team/Tahfimul.jpg" width="300px" data-toggle="modal" data-target="#member1Modal"/>
     </div>
-        <!-- Modal -->
+<!-- Modal -->
 <div id="member1Modal" class="modal slideanim" role="dialog">
   <div class="modal-dialog">
-
-    <!-- Modal content-->
+<!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h4 class="modal-title text-center">Tahfimul Latif</h4>
       </div>
       <div class="modal-body text-center">
-        <img src="/img/Team/Tahfimul-lg.jpg" width="500">
+        <img src="img/team/Tahfimul-lg.jpg" width="500">
         <br><br>
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
       <div class="modal-footer">
-        
       </div>
     </div>
-
   </div>
 </div>
     <div class="col-sm-8">
-      <h2>Tahfimul Latif</h2><br>
-      <h4><strong>JOB:</strong> I was responsible for coding the website. In particular I worked with HTML(Hyper Text Markup Language).</h4>
+      <h2>Tahfimul  Latif</h2><br>
+      <h4><strong>JOB:</strong> Was responsible for coding the website. In particular, worked with HTML(Hyper Text Markup Language) & CSS (Cascading Style Sheets).</h4>
       <h4><strong>FUTURE GOAL:</strong> My career goal is to become a programmer. I have been interested in coding and loved it ever since I was introduced to it back in 2013. I realize that there are plenty of opportunities for programmers in the future and a high demand for them.</h4>
     </div>
   </div>
-  <hr>
+<!-- end of 1st member -->
+<hr>
+<!-- 2nd member -->
   <div class="row">
     <div class="col-sm-4">
       <div class="row">
     <div class="col-sm-4 slideanim">
-      <img id="img1" src="http://static1.squarespace.com/static/54c04da7e4b0d9e9dc36c715/t/557a0ffae4b0017a8ad93d65/1434062842248/instagram-icon.jpg" width="300px" data-toggle="modal" data-target="#member2Modal" />
+      <img id="img1" style="border-radius: 50%;" src="img/team/Jean.jpg" width="300px" data-toggle="modal" data-target="#member2Modal" />
     </div>
-        <!-- Modal -->
+<!-- Modal -->
 <div id="member2Modal" class="modal slideanim" role="dialog">
   <div class="modal-dialog">
-
-    <!-- Modal content-->
+<!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Team Memeber#2 Picture</h4>
+        <h4 class="modal-title">Benoit Jean-Joseph</h4>
       </div>
       <div class="modal-body text-center">
-        <img src="http://static1.squarespace.com/static/54c04da7e4b0d9e9dc36c715/t/557a0ffae4b0017a8ad93d65/1434062842248/instagram-icon.jpg">
+        <img src="img/team/Jean.jpg">
         <br><br>
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
       <div class="modal-footer">
-        
       </div>
     </div>
+  </div>
+</div>
+    </div>
+</div>
 
-  </div>
-</div>
-    </div>
-</div>
-    <div class="col-sm-8">
-      <h2>Jean Josheph John</h2><br>
-      <h4><strong>JOB:</strong> Needs description</h4><br>
-      <h4><strong>FUTURE GOAL:</strong> Needs description</h4>
+<div class="col-sm-8">
+      <h2>Benoit Jean-Joseph</h2><br>
+      <h4><strong>JOB:</strong> Was reponsible for the front-end programming [HTML(HyperText Markup Language), CSS(Cascading Style Sheets) & JQuery] for the website.</h4><br>
+      <h4><strong>FUTURE GOAL:</strong> My career goal is to be a Physicist and Mathematician and work on the frontiers of science and mathematics. I also planned to have my own internet company.</h4>
     </div>
   </div>
-  <hr>
+<!-- 2nd member -->
+<hr>
+<!-- 3rd member -->
   <div class="row">
     <div class="row">
     <div class="col-sm-4 slideanim">
       <img src="http://static1.squarespace.com/static/54c04da7e4b0d9e9dc36c715/t/557a0ffae4b0017a8ad93d65/1434062842248/instagram-icon.jpg" width="300px" data-toggle="modal" data-target="#member3Modal"/>
     </div>
-        <!-- Modal -->
+<!-- Modal -->
 <div id="member3Modal" class="modal slideanim" role="dialog">
   <div class="modal-dialog">
-
-    <!-- Modal content-->
+<!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -163,12 +158,10 @@
         <br><br>
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
-      <div class="modal-footer">
-        
+      <div class="modal-footer">        
       </div>
     </div>
-
-  </div>
+ </div>
 </div>
     <div class="col-sm-8">
       <h2>Nowshin Saraya</h2><br>
@@ -176,102 +169,258 @@
       <h4><strong>FUTURE GOAL:</strong> Needs description</h4>
     </div>
   </div>
-  <hr>
-  <div class="row">
-    <div class="col-sm-4 slideanim">
-      <img src="http://static1.squarespace.com/static/54c04da7e4b0d9e9dc36c715/t/557a0ffae4b0017a8ad93d65/1434062842248/instagram-icon.jpg" width="300px" data-toggle="modal" data-target="#member4Modal"/>
-    </div>
+</div>
+</div>
+</div><br>
+<!-- end of 3rd member -->
+<div class="jumbotron text-center" style="background-image: url('img/bg/web dev team.png'); ">
+  <h1>Web Development History</h1>
+</div>
+
+
+<section id="cd-timeline" class="cd-container">
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-picture">
+        <img src="img/cd-icon-picture.svg" alt="Picture">
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Initial Version</h2>
+        <p>The Web Development Team began with a simple page for the software engineering class.</p>
+        <a href="http://hillcresths.github.io/" target="about_blank" class="cd-read-more">Check it out.</a>
+        <span class="cd-date text-center" >Apr 10, 2016</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-movie">
+        <img src="img/cd-icon-movie.svg" alt="Movie">
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Version 2</h2>
+        <p>Next we wanted to take the bigger challenge. We took the contents of school's website and put it all together in a <a href="https://getbootstrap.com/">Bootstrap</a> theme.</p>
+        <a class="cd-read-more" data-toggle="modal" data-target="#v2Modal">View more</a>
         <!-- Modal -->
-<div id="member4Modal" class="modal slideanim" role="dialog">
-  <div class="modal-dialog">
+        <div id="v2Modal" class="modal slideanim" role="dialog">
+          <div class="modal-dialog">
+          <!-- Modal content-->
+            <div class="modal-content">
+            <div class="modal-header">             
+              <button type="button" class="close" data-dismiss="modal">&times;</button>               
+              <h4 class="modal-title text-center">Version 2</h4>
+            </div>
+            <div class="modal-body text-center">
+              <p>Add screenshots of every page from this version.</p>
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">       
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div> 
+        <span class="cd-date text-center">April 9, 2017</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Team Memeber#4 Picture</h4>
-      </div>
-      <div class="modal-body text-center">
-        <img src="http://static1.squarespace.com/static/54c04da7e4b0d9e9dc36c715/t/557a0ffae4b0017a8ad93d65/1434062842248/instagram-icon.jpg">
-        <br><br>
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-      <div class="modal-footer">
-        
-      </div>
-    </div>
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-picture">
+        <img src="img/cd-icon-picture.svg" alt="Picture">
+      </div> <!-- cd-timeline-img -->
 
-  </div>
+      <div class="cd-timeline-content">
+        <h2>Version 3</h2>
+        <p>We kept improving our initial version into a more complete and legible to publish format.</p>
+        <a class="cd-read-more" data-toggle="modal" data-target="#v3Modal">View more</a>
+        <!-- Modal -->
+        <div id="v3Modal" class="modal slideanim" role="dialog">
+          <div class="modal-dialog">
+          <!-- Modal content-->
+            <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Version 3</h4>
+            </div>
+            <div class="modal-body text-center">
+              <p>Add screenshots of every page from this version.</p>
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">       
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div> 
+        <span class="cd-date text-center">April 11, 2017</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-location">
+        <img src="img/cd-icon-location.svg" alt="Location">
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Version 4</h2>
+        <p></p>
+        <a class="cd-read-more" data-toggle="modal" data-target="#v4Modal">View more</a>
+        <!-- Modal -->
+        <div id="v4Modal" class="modal slideanim" role="dialog">
+          <div class="modal-dialog">
+          <!-- Modal content-->
+            <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Version 4</h4>
+            </div>
+            <div class="modal-body text-center">
+              <p>Add screenshots of every page from this version.</p>
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">       
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div> 
+        <span class="cd-date text-center">April 25, 2017</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-location">
+        <img src="img/cd-icon-location.svg" alt="Location">
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Version 5</h2>
+        <p></p>
+        <a class="cd-read-more" data-toggle="modal" data-target="#v5Modal">View more</a>
+        <!-- Modal -->
+        <div id="v5Modal" class="modal slideanim" role="dialog">
+          <div class="modal-dialog">
+          <!-- Modal content-->
+            <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Version 5</h4>
+            </div>
+            <div class="modal-body text-center">
+              <p>Add screenshots of every page from this version.</p>
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">       
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div> 
+        <span class="cd-date text-center">April 26, 2017</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-movie">
+        <img src="img/cd-icon-movie.svg" alt="Movie">
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Version 6</h2>
+        <p></p>
+        <a class="cd-read-more" data-toggle="modal" data-target="#v6Modal">View More</a>
+        <!-- Modal -->
+        <div id="v6Modal" class="modal slideanim" role="dialog">
+          <div class="modal-dialog">
+          <!-- Modal content-->
+            <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Version 6</h4>
+            </div>
+            <div class="modal-body text-center">
+              <p>Add screenshots of every page from this version.</p>
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">       
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div> 
+        <span class="cd-date text-center">April 27, 2017</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-location">
+        <img src="img/cd-icon-location.svg" alt="Location">
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Version 7</h2>
+        <p></p>
+        <a class="cd-read-more" data-toggle="modal" data-target="#v7Modal">View more</a>
+        <!-- Modal -->
+        <div id="v7Modal" class="modal slideanim" role="dialog">
+          <div class="modal-dialog">
+          <!-- Modal content-->
+            <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title text-center">Version 7</h4>
+            </div>
+            <div class="modal-body text-center">
+              <p>Add screenshots of every page from this version.</p>
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">
+              <img src="https://img.clipartfest.com/f1c794050ae6208b8ef22ce9de850586_example-example_1502-889.jpeg" width="300">       
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+            <div class="modal-footer">
+            </div>
+          </div>
+        </div>
+      </div>        
+        <span class="cd-date text-center">Add Date For Edit-6</span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+  </section> <!-- cd-timeline -->
+
+<!-- Banner -->
+
+<div class="jumbotron text-center">
+  <h1>"<"Home Of The Hawks"/>"</h1>
 </div>
-    <div class="col-sm-8">
-      <h2>Sharon</h2><br>
-      <h4><strong>JOB:</strong> Needs description</h4><br>
-      <h4><strong>FUTURE GOAL:</strong> Needs description</h4>
-    </div>
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-sm-4 slideanim">
-      <img src="http://static1.squarespace.com/static/54c04da7e4b0d9e9dc36c715/t/557a0ffae4b0017a8ad93d65/1434062842248/instagram-icon.jpg" width="300px" data-toggle="modal" data-target="#member5Modal"/>
-    </div>
-    <!-- Modal -->
-<div id="member5Modal" class="modal slideanim" role="dialog">
-  <div class="modal-dialog">
+<!-- end of Banner -->
 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Team Memeber#5 Picture</h4>
-      </div>
-      <div class="modal-body text-center">
-        <img src="http://static1.squarespace.com/static/54c04da7e4b0d9e9dc36c715/t/557a0ffae4b0017a8ad93d65/1434062842248/instagram-icon.jpg">
-        <br><br>
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-      </div>
-      <div class="modal-footer">
-        
-      </div>
-    </div>
-
-  </div>
-</div>
-    <div class="col-sm-8">
-      <h2>Team Memeber#5 Name</h2><br>
-      <h4><strong>JOB:</strong> Needs description</h4><br>
-      <h4><strong>FUTURE GOAL:</strong> Needs description</h4>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-
-
-
-
-
-
-<div class="jumbotron text-center slideanim">
-  <h1>Home Of The Hawks</h1>
-  
-</div>
-<div class="text-center slideanim">
-      
-  <img src="http://schools.nyc.gov/NR/rdonlyres/22260786-0759-4439-B85E-CD578B8A3C07/199609/Picture1.jpg" height="300px"/>      
-     
-</div>
-
-
+<!-- footer -->
 <footer class="container-fluid text-center">
 <a href="#main" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
   <p>&copy; Copyright Hillcrest High School</p>   
   <a href="icons.html">Icons Used</a>
 </footer>
+<!-- end of footer -->
 
-
-
+<!--TImeline Stuff-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/timeline.js"></script> <!-- Resource jQuery -->
 
 </body>
 </html>
-
-

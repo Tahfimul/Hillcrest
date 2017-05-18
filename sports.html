@@ -1,78 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <title>Sports | HHS</title>
-  <meta charset="utf-8">
+<title>Sports | Hillcrest High School</title>
+ <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/png" href="fav.ico">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="index.css"> 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+<!-- favicon -->
+  <link rel="icon" type="image/png" href="img/fav.ico">
+<!-- end of favicon -->
+
+<!-- Boostrap and font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css"> 
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"><link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="index.json"></script>
+<!-- end of Bootstrap and font awesome -->
+
+<!-- link CSS and JQuery -->
+<link rel="stylesheet" href="css/index.css"> 
+<script src="js/index.json"></script>
+<!-- end of CSS and JQuery -->
 </head>
 
 <body id="main" data-spy="scroll" data-target=".navbar" data-offset="60">
-
+<!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="fav.ico" width="50px" /></a>
+        <span class="icon-bar"></span>         </button>
+      <a class="navbar-brand" href="main.html"><img src="img/fav.ico" width="50px" /></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="about.html">ABOUT</a></li>
-        <li><a href="slcs.html">SLCS</a></li>
+        <li><a href="slc.html">SLCs</a></li>
         <li><a href="academics.html">ACADEMICS</a></li>
         <li><a href="departments.html">DEPARTMENTS</a></li>
         <li><a href="highlighter.html">HIGHLIGHTER</a></li>
-        <li><a href="sports.html">SPORTS</a></li>
+        <li class="active"><a href="sports.html">SPORTS</a></li>
         <li><a href="contact.html">CONTACT</a></li>
-       
-        
-      </ul>
+        <li><a href="college.html">COLLEGE</a></li>
+     </ul>
     </div>
   </div>
 </nav>
+<!-- end of Navigation -->
 
+<!-- Banner -->
+<div class="bg"></div>
 <div id="title" class="jumbotron text-center">
-  <h1>HAWK PRIDE TEAMS</h1  >
-  <h1>@</h1>
-  <p>Hillcrest High School</p> 
-  <h1>Need to fix links in pride teams nav bar</h1>
-  
+  <h1>Sports</h1>
+  <p>HAWK PRIDE TEAMS</p>
 </div>
+<!-- end of Banner -->
+
+<!-- Description -->
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
-   
-     
-      <h4>Needs Description.</h4>
- 
-
+     <h4>Needs Description.</h4>
   </div>
-</div>
-
-<div id="description" class="container-fluid bg-grey">
-  <div class="row">
-    
-    <div class="col-sm-4">
+<div class="row">
+   <div class="col-sm-4">
     <h2>Sports Director:</h2>
     </div>
     <div class="col-sm-4">
       <h2>Mr. Tarek Ali</h2>
     </div>
 </div>
-
-<div class="row">
+  <div class="row">
     <div class="col-sm-4">
     <h2>718-658-5407 ext. 1020</h2>
     </div>   
@@ -80,53 +79,43 @@
     <div class="col-sm-4">
       <h2><a href="mailto:TAli@schools.nyc.gov?Subject=Sports%20Question" target="_top">TAli@schools.nyc.gov</a></h2>
     </div>
+  </div>
 </div>
+<!-- end of Description -->
+<br>
 
-</div>
-
+<!-- Internal Navigation -->
 <nav class="navbar">
-<div class="container">
- <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sportsNavbar">
+  <div class="container">
+      <a class="navbar-brand" data-toggle="collapse" data-target="#sportsNavbar">Menu</a> 
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sportsNavbar">
         <span class="icon-bar"><img src="img/menu.png" width="25px"></span>                      
-      </button>
-    <div class="navbar-header">
-      
-      <a class="navbar-brand" href="sports.html">HAWK PRIDE TEAMS</a>
-    </div>
- 
+      </button>     
     <div class="collapse navbar-collapse text-center" id="sportsNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="#track"><img src="img/sports/running.png" width="50px"></a></li>
-        <li><a href="#wrestling"><img src="img/sports/wrestling.png" width="40px"></a></li>
-        <li><a href="#gym"><img src="img/sports/gym.png" width="40px"></a></li>
-        <li><a href="#basketball"><img src="img/sports/basketball.png" width="40px"></a></li>
-        <li><a href="#soccer"><img src="img/sports/soccer.png" width="40px"></a></li>
-        <li><a href="#bowling"><img src="img/sports/bowling.png" width="40px"></a></li>
-        <li><a href="#tennis"><img src="img/sports/tennis.png" width="40px"></a></li>
-        <li><a href="#cross country"><img src="img/sports/running.png" width="50px"></a></li>
-        <li><a href="#baseball"><img src="img/sports/baseball.png" width="40px"></a></li>
-        <li><a href="#softball"><img src="img/sports/baseball.png" width="40px"></a></li>
-        <li><a href="#cricket"><img src="img/sports/cricket.png" width="40px"></a></li>
-        <li><a href="#golf"><img src="img/sports/golf.png" width="40px"></a></li>   
-        
-      </ul>
-      <ul class="nav navbar-nav">
-        <li><a href="#eligibility">Eligibility Requirements</a></li>
-        <li><a href="#schedules">Schedules</a></li>
-        <li><a href="http://www.psal.org/profiles/school-profile.aspx#28522" target="about_blank">PSAL Profile</a></li>
-
+      <ul class="nav navbar-nav" style="font-size: 20px;">
+        <li><a href="#track">Track & Field</a></li>
+        <li><a href="#wrestling">Wrestling</a></li>
+        <li><a href="#gym">Gymnastics</a></li>
+        <li><a href="#basketball">Basketball</a></li>
+        <li><a href="#soccer">Soccer</a></li>
+        <li><a href="#bowling">Bowling</a></li>
+        <li><a href="#tennis">Tennis</a></li>
+        <li><a href="#cross-country">Cross Country</a></li>
+        <li><a href="#baseball">Baseball</a></li>
+        <li><a href="#softball">Softball</a></li>
+        <li><a href="#cricket">Cricket</a></li>
+        <li><a href="#golf">Golf</a></li>   
       </ul>
     </div>
   </div>
 </nav>
-<hr>
-  <!--Track & Field Section-->
-<div id="track" class="jumbotron text-center">
+<!-- end of Internal Navigation -->
+<br>
+<!--Track & Field Section-->
+<div id="track" class="jumbotron text-center" style="background-image: url(https://s-media-cache-ak0.pinimg.com/736x/94/ef/28/94ef2825394c7ebc386e9af7ca41b66a.jpg);">
   <h1>Track & Field</h1>
-  <h1>@</h1>
   <p>Hillcrest High School</p>
- 
-</div>
+ </div>
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4 slideanim">
@@ -136,16 +125,12 @@
       <h4>Needs Description</h4>
     </div>
   </div>
+</div><br>
+
+<div class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>Some Highlights</h1>
 </div>
-
-<
- <!-- Container (Highlights Section) -->
-<div id="highlights" class="container-fluid">
-  <div class="text-center">
-  
-  <h2>Some Highlights</h2>
-
-  </div>
+<div id="highlights" class="container-fluid">  
   <div class="row slideanim">
     <div id="highlight 1" class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
@@ -165,7 +150,7 @@
                 <h4 class="modal-title">John Perez</h4>
             </div>
             <div class="modal-body text-center">
-                <img src="img/sports/John Perez.jpg" width="400">
+                <img src="img/sports/John Perez.jpg" width="300">
                 <br><br>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -200,7 +185,7 @@
                 <h4 class="modal-title">Mohammed Monir</h4>
             </div>
             <div class="modal-body text-center">
-                <img src="img/sports/Mohammed Monir.jpg" width="400">
+                <img src="img/sports/Mohammed Monir.jpg" width="300">
                 <br><br>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -234,7 +219,7 @@
                 <h4 class="modal-title">Edens Michel</h4>
             </div>
             <div class="modal-body text-center">
-                <img src="img/sports/Edens Michel.jpg" width="400">
+                <img src="img/sports/Edens Michel.jpg" width="300">
                 <br><br>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -253,13 +238,12 @@
     </div>    
   </div>
 </div>
+<!-- end of Track & Field -->
 
-  <!--Wrestling Section-->
-<div id="wrestling" class="jumbotron text-center">
-  <h1>Varisty Wrestling</h1>
-  <h1>@</h1>
+<!--Wrestling-->
+<div id="wrestling" class="jumbotron text-center" style="background-image: url(https://wallpaperscraft.com/image/hands_men_wrestling_biceps_black_and_white_arm_wrestling_79971_3840x2160.jpg);">
+  <h1>Wrestling (Varsity)</h1>
   <p>Hillcrest High School</p>
- 
 </div>
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
@@ -270,25 +254,20 @@
       <h4>Needs Description</h4>
     </div>
   </div>
+</div><br>
+
+<div class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>Some Highlights</h1>
 </div>
-
-
- 
- <!-- Container (Highlights Section) -->
 <div id="highlights" class="container-fluid">
-  <div class="text-center">
-  
-  <h2>Some Highlights</h2>
-
-  </div>
-  <div class="row slideanim">
+   <div class="row slideanim">
     <div id="highlight 1" class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
           <h1>Example 1</h1>
         </div>
         <div class="panel-body">
-          <img src="img/1.jpg" width="250px"/>
+          <img src="img/1.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -304,7 +283,7 @@
           <h1>Example 2</h1>
         </div>
     <div class="panel-body">
-          <img src="img/2.jpg" width="250px"/>
+          <img src="img/2.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -320,7 +299,7 @@
           <h1>Example 3</h1>
         </div>
         <div class="panel-body">
-          <img src="img/3.jpg" width="250px"/>
+          <img src="img/3.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -332,11 +311,11 @@
     </div>    
   </div>
 </div>
+<!-- end of Wrestling -->
 
- <!--Gymnastics Section-->
-<div id="gym" class="jumbotron text-center">
-  <h1>Varsity Gymnastics</h1>
-  <h1>@</h1>
+ <!--Gymnastics-->
+<div id="gym" class="jumbotron text-center" style="background-image: url(https://cdn.allwallpaper.in/wallpapers/1920x1080/8690/black-background-typographic-portrait-gymnastics-london-2012-1920x1080-wallpaper.jpg);">
+  <h1>Gymnastics (Varsity)</h1>
   <p>Hillcrest High School</p>
  
 </div>
@@ -349,17 +328,12 @@
       <h4>Needs Description</h4>
     </div>
   </div>
+</div><br>
+
+<div class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>Some Highlights</h1>
 </div>
-
-
- 
- <!-- Container (Highlights Section) -->
 <div id="highlights" class="container-fluid">
-  <div class="text-center">
-  
-  <h2>Some Highlights</h2>
-
-  </div>
   <div class="row slideanim">
     <div id="highlight 1" class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
@@ -367,7 +341,7 @@
           <h1>Example 1</h1>
         </div>
         <div class="panel-body">
-          <img src="img/1.jpg" width="250px"/>
+          <img src="img/1.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -383,7 +357,7 @@
           <h1>Example 2</h1>
         </div>
     <div class="panel-body">
-          <img src="img/2.jpg" width="250px"/>
+          <img src="img/2.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -399,7 +373,7 @@
           <h1>Example 3</h1>
         </div>
         <div class="panel-body">
-          <img src="img/3.jpg" width="250px"/>
+          <img src="img/3.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -411,42 +385,37 @@
     </div>    
   </div>
 </div>
+<!-- end of Gymnastics-->
 
- <!--Basketball Section-->
-<div id="basketball" class="jumbotron text-center">
-  <h1>Juniors Varsity/Varsity Basketball</h1>
-  <h1>@</h1>
+ <!--Basketball-->
+<div id="basketball" class="jumbotron text-center" style="background-image: url(http://wallpapercave.com/wp/RJJ7PtL.jpg);">
+  <h1>Basketball (Varsity)</h1>
   <p>Hillcrest High School</p>
- 
 </div>
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4 slideanim">
+
      <img src="img/sports/basketball.png" width="100px" />
     </div>
     <div class="col-sm-8">
       <h4>Needs Description</h4>
     </div>
   </div>
+</div><br>
+
+<div class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>Some Highlights</h1>
 </div>
-
-
- 
- <!-- Container (Highlights Section) -->
 <div id="highlights" class="container-fluid">
-  <div class="text-center">
-  
-  <h2>Some Highlights</h2>
-
-  </div>
   <div class="row slideanim">
     <div id="highlight 1" class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
           <h1>Example 1</h1>
         </div>
-        <div class="panel-body">
-          <img src="img/1.jpg" width="250px"/>
+        <div class="panel-body text-center slideanim">
+          <img src="img/1.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -462,7 +431,7 @@
           <h1>Example 2</h1>
         </div>
     <div class="panel-body">
-          <img src="img/2.jpg" width="250px"/>
+          <img src="img/2.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -478,7 +447,7 @@
           <h1>Example 3</h1>
         </div>
         <div class="panel-body">
-          <img src="img/3.jpg" width="250px"/>
+          <img src="img/3.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -490,13 +459,12 @@
     </div>    
   </div>
 </div>
+<!-- end of Basketball -->
 
- <!--Soccer Section-->
-<div id="soccer" class="jumbotron text-center">
-  <h1>Varsity Soccer</h1>
-  <h1>@</h1>
+ <!--Soccer-->
+<div id="soccer" class="jumbotron text-center" style="background-image: url(http://wallpapercave.com/wp/unvAcKh.jpg);">
+  <h1>Soccer (Varsity)</h1>
   <p>Hillcrest High School</p>
- 
 </div>
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
@@ -507,17 +475,12 @@
       <h4>Needs Description</h4>
     </div>
   </div>
+</div><br>
+
+<div class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>Some Highlights</h1>
 </div>
-
-
- 
- <!-- Container (Highlights Section) -->
 <div id="highlights" class="container-fluid">
-  <div class="text-center">
-  
-  <h2>Some Highlights</h2>
-
-  </div>
   <div class="row slideanim">
      <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
@@ -525,7 +488,7 @@
           <h1>The Girls Soccer Team Is Prepared For The Challenges To Come </h1>
         </div>
         <div class="panel-body">
-          <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/published/girls-soccer.jpg?1490805485" width="250px" data-toggle="modal" data-target="#4Modal"/>
+          <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/published/girls-soccer.jpg?1490805485" width="230px" data-toggle="modal" data-target="#4Modal"/>
              <!-- Modal -->
        <div id="4Modal" class="modal slideanim" role="dialog">
          <div class="modal-dialog">
@@ -536,7 +499,7 @@
                 <h4 class="modal-title">Lady Hawks At The Soccer Field</h4>
             </div>
             <div class="modal-body text-center">
-                <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/published/girls-soccer.jpg?1490805485" width="400">
+                <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/published/girls-soccer.jpg?1490805485" width="300">
                 <br><br>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -548,7 +511,7 @@
         </div>
         <div class="panel-footer">
           
-          <p>Lady Hawks, played their first game of this 2016-2017 season against Springfield High School. Their coach, Victor Pantopoulos, has been training the players for two weeks prior to the game.</p>
+          <p>Lady Hawks, played their first game of this 2016-2017 season against Springfield High School. Their coach, Victor Pantopoulos, has been training the players for two weeks prior to the game. - <a href="highlighter.html">Highlighter</a></p>
           <hr>
           <a href="http://www.hillcresthighlighter.com/girls-soccer1.html" target="about_blank3">Read More</a>
           
@@ -561,13 +524,13 @@
           <h1>Dominating ​Season For The ​Boys Varsity Soccer Team </h1>
         </div>
         <div class="panel-body">
-          <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/editor/127139747-display.jpg?1490806263" width="250px"/>         
+          <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/editor/127139747-display.jpg?1490806263" width="230px"/>         
 
           
         </div>
         <div class="panel-footer">
           
-          <p>The Hillcrest Boys Varsity Soccer Team are off to a better start this year compared to last year’s 2015-2016 season, with seven wins and two losses so far. Hope to see they it make far into championships.</p>
+          <p>The Hillcrest Boys Varsity Soccer Team are off to a better start this year compared to last year’s 2015-2016 season, with seven wins and two losses so far. Hope to see they it make far into championships. - <a href="highlighter.html">Highlighter</a></p>
           <hr>
           <a href="http://www.hillcresthighlighter.com/boys-varsity-soccer.html" target="about_blank">Read More</a>
           
@@ -580,7 +543,7 @@
           <h1>Example 3</h1>
         </div>
         <div class="panel-body">
-          <img src="img/3.jpg" width="250px"/>
+          <img src="img/3.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -591,14 +554,13 @@
       </div>      
     </div>    
   </div>
-</div>
+</div><br>
+<!-- end of Soccer -->
 
- <!--Bowling Section-->
-<div id="bowling" class="jumbotron text-center">
-  <h1>Varsity Bowling</h1>
-  <h1>@</h1>
+ <!--Bowling-->
+<div id="bowling" class="jumbotron text-center" style="background-image: url('https://static.pexels.com/photos/4192/sport-alley-ball-game.jpg');">
+  <h1>Bowling (Varsity)</h1>
   <p>Hillcrest High School</p>
- 
 </div>
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
@@ -609,17 +571,12 @@
       <h4>Needs Description</h4>
     </div>
   </div>
+</div><br>
+
+<div class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>Some Highlights</h1>
 </div>
-
-
- 
- <!-- Container (Highlights Section) -->
 <div id="highlights" class="container-fluid">
-  <div class="text-center">
-  
-  <h2>Some Highlights</h2>
-
-  </div>
   <div class="row slideanim">
     <div id="highlight 1" class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
@@ -627,7 +584,7 @@
           <h1>Example 1</h1>
         </div>
         <div class="panel-body">
-          <img src="img/1.jpg" width="250px"/>
+          <img src="img/1.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -643,7 +600,7 @@
           <h1>Example 2</h1>
         </div>
     <div class="panel-body">
-          <img src="img/2.jpg" width="250px"/>
+          <img src="img/2.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -659,7 +616,7 @@
           <h1>Example 3</h1>
         </div>
         <div class="panel-body">
-          <img src="img/3.jpg" width="250px"/>
+          <img src="img/3.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -671,11 +628,11 @@
     </div>    
   </div>
 </div>
+<!-- end of Bowling -->
 
- <!--Tennis Section-->
-<div id="tennis" class="jumbotron text-center">
-  <h1>Varsity Tennis</h1>
-  <h1>@</h1>
+ <!--Tennis -->
+<div id="tennis" class="jumbotron text-center" style="background-image: url(http://www.miscellaneoushi.com/thumbnails/detail/20121018/abstract%20world%20nike%20digital%20art%20artwork%20brands%20black%20background%20just%20do%20it%201920x1080%20wallpaper_www.miscellaneoushi.com_98.jpg);">
+  <h1>Tennis (Varsity)</h1>
   <p>Hillcrest High School</p>
  
 </div>
@@ -688,17 +645,13 @@
       <h4>Needs Description</h4>
     </div>
   </div>
-</div>
+</div><br>
 
-
- 
  <!-- Container (Highlights Section) -->
+ <div class="jumbotron text-center" style="background-color: #b232b2;">
+   <h1>Some Highlights</h1>
+ </div>
 <div id="highlights" class="container-fluid">
-  <div class="text-center">
-  
-  <h2>Some Highlights</h2>
-
-  </div>
   <div class="row slideanim">
      <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
@@ -706,7 +659,7 @@
           <h1>Lady Hawks Dominating Season</h1>
         </div>
     <div class="panel-body">
-          <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/published/tennis.jpeg?1490804748" width="250px" data-toggle="modal" data-target="#8Modal"/>
+          <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/published/tennis.jpeg?1490804748" width="230px" data-toggle="modal" data-target="#8Modal"/>
 
            <!-- Modal -->
        <div id="8Modal" class="modal slideanim" role="dialog">
@@ -718,7 +671,7 @@
                 <h4 class="modal-title">Lady Hawks By The School Lawn</h4>
             </div>
             <div class="modal-body text-center">
-                <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/published/tennis.jpeg?1490804748" width="400">
+                <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/published/tennis.jpeg?1490804748" width="300">
                 <br><br>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -730,7 +683,7 @@
         </div>
         <div class="panel-footer">
           
-          <p>The Hillcrest Girls Tennis team is having a very dominating season. The team started this season strongly by winning 4 out of its 5 games. This team has come a long way from the previous season, in which they lacked much experience. But this hardworking team consists of juniors and seniors, which gives these girls an advantage this season, because they are much more experienced players, and are determined to win. (Fall 2016)</p>
+          <p>The Hillcrest Girls Tennis team is having a very dominating season. The team started this season strongly by winning 4 out of its 5 games. This team has come a long way from the previous season, in which they lacked much experience. But this hardworking team consists of juniors and seniors, which gives these girls an advantage this season, because they are much more experienced players, and are determined to win. (Fall 2016) - <a href="highlighter.html">Highlighter</a></p>
           <hr>
           <a href="http://www.hillcresthighlighter.com/girls-tennis.html" target="about_blank2">Read More</a>
           
@@ -743,7 +696,7 @@
           <h1>Example 2</h1>
         </div>
     <div class="panel-body">
-          <img src="img/2.jpg" width="250px"/>
+          <img src="img/2.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -759,7 +712,7 @@
           <h1>Example 3</h1>
         </div>
         <div class="panel-body">
-          <img src="img/3.jpg" width="250px"/>
+          <img src="img/3.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -771,13 +724,12 @@
     </div>    
   </div>
 </div>
+<!-- end of Tennis -->
 
- <!--Cross Country Section-->
-<div id="cross country" class="jumbotron text-center">
+ <!--Cross Country-->
+<div id="cross-country" class="jumbotron text-center" style="background-image: url(http://cdn.wallpapersafari.com/10/17/kYxcla.jpg);">
   <h1>Cross Country</h1>
-  <h1>@</h1>
   <p>Hillcrest High School</p>
- 
 </div>
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
@@ -788,17 +740,12 @@
       <h4>Needs Description</h4>
     </div>
   </div>
+</div><br>
+
+<div class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>Some Highlights</h1>
 </div>
-
-
- 
- <!-- Container (Highlights Section) -->
 <div id="highlights" class="container-fluid">
-  <div class="text-center">
-  
-  <h2>Some Highlights</h2>
-
-  </div>
   <div class="row slideanim">
     <div id="highlight 1" class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
@@ -806,7 +753,7 @@
           <h1>Example 1</h1>
         </div>
         <div class="panel-body">
-          <img src="img/1.jpg" width="250px"/>
+          <img src="img/1.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -822,7 +769,7 @@
           <h1>Example 2</h1>
         </div>
     <div class="panel-body">
-          <img src="img/2.jpg" width="250px"/>
+          <img src="img/2.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -838,7 +785,7 @@
           <h1>Example 3</h1>
         </div>
         <div class="panel-body">
-          <img src="img/3.jpg" width="250px"/>
+          <img src="img/3.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -850,11 +797,11 @@
     </div>    
   </div>
 </div>
+<!-- end of Cross country -->
 
- <!--Handball Section-->
-<div id="handball" class="jumbotron text-center">
-  <h1>Varsity Handball</h1>
-  <h1>@</h1>
+ <!--Handball-->
+<div id="handball" class="jumbotron text-center" style="background-image: url(https://wallpaperscraft.com/image/hand_ball_butterfly_lines_9820_3840x2400.jpg);">
+  <h1>Handball (Varsity)</h1>
   <p>Hillcrest High School</p>
  
 </div>
@@ -867,16 +814,12 @@
       <h4>Needs Description</h4>
     </div>
   </div>
+</div><br>
 
-
+<div class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>Some Highlights</h1>
 </div>
-<!-- Container (Highlights Section) -->
 <div id="highlights" class="container-fluid">
-  <div class="text-center">
-  
-  <h2>Some Highlights</h2>
-
-  </div>
   <div class="row slideanim">
     <div id="highlight 1" class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
@@ -884,7 +827,7 @@
           <h1>Lady Hawks Showing No Mercy On Handball Courts</h1>
         </div>
         <div class="panel-body">
-          <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/153860.jpg" width="250px" data-toggle="modal" data-target="#9Modal"/>
+          <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/153860.jpg" width="230px" data-toggle="modal" data-target="#9Modal"/>
               <!-- Modal -->
        <div id="9Modal" class="modal slideanim" role="dialog">
          <div class="modal-dialog">
@@ -895,7 +838,7 @@
                 <h4 class="modal-title">Lady Hawks At The Handball Court</h4>
             </div>
             <div class="modal-body text-center">
-                <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/153860.jpg" width="400">
+                <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/153860.jpg" width="300">
                 <br><br>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -907,7 +850,7 @@
         </div>
         <div class="panel-footer">
           
-          <p>The Girls Handball team appears to be playoff-bound after winning 8 of their first 9 games. (Spring 2016)</p>
+          <p>The Girls Handball team appears to be playoff-bound after winning 8 of their first 9 games. (Spring 2016) - <a href="highlighter.html">Highlighter</a></p>
           <hr>
           <a href="http://www.hillcresthighlighter.com/girls-handball.html" target="about_blank">Read More</a>
           
@@ -920,7 +863,7 @@
           <h1>Example 2</h1>
         </div>
     <div class="panel-body">
-          <img src="img/2.jpg" width="250px"/>
+          <img src="img/2.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -936,7 +879,7 @@
           <h1>Example 3</h1>
         </div>
         <div class="panel-body">
-          <img src="img/3.jpg" width="250px"/>
+          <img src="img/3.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -948,13 +891,12 @@
     </div>    
   </div>
 </div>
+<!-- end of Handball -->
 
- <!--Volleyball Section-->
-<div id="volleyball" class="jumbotron text-center">
-  <h1>Junior Varsity/Varsity Volleyball</h1>
-  <h1>@</h1>
+ <!--Volleyball-->
+<div id="volleyball" class="jumbotron text-center" style="background-image: url(https://wallpaperscraft.com/image/hand_ball_butterfly_lines_9820_3840x2400.jpg);">
+  <h1>Volleyball (Varsity)</h1>
   <p>Hillcrest High School</p>
- 
 </div>
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
@@ -965,15 +907,12 @@
       <h4>Needs Description</h4>
     </div>
   </div>
-</div>
- 
- <!-- Container (Highlights Section) -->
-<div id="highlights" class="container-fluid">
-  <div class="text-center">
-  
-  <h2>Some Highlights</h2>
+</div><br>
 
-  </div>
+<div class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>Some Highlights</h1>
+</div>
+<div id="highlights" class="container-fluid">
   <div class="row slideanim">
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
@@ -981,7 +920,7 @@
           <h1>Lady Hawks Junior Varsity Volleyball</h1>
         </div>
         <div class="panel-body">
-          <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/published/dsc-1478.jpeg?1490804626" width="250px" data-toggle="modal" data-target="#10Modal"/>
+          <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/published/dsc-1478.jpeg?1490804626" width="230px" data-toggle="modal" data-target="#10Modal"/>
                    <!-- Modal -->
        <div id="10Modal" class="modal slideanim" role="dialog">
          <div class="modal-dialog">
@@ -992,7 +931,7 @@
                 <h4 class="modal-title">Lady Hawks At The Volleyball Court</h4>
             </div>
             <div class="modal-body text-center">
-                <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/published/dsc-1478.jpeg?1490804626" width="400">
+                <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/published/dsc-1478.jpeg?1490804626" width="300">
                 <br><br>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -1004,7 +943,7 @@
         </div>
         <div class="panel-footer">
           
-          <p>Hillcrest’s Junior Varsity Volleyball team went undefeated last season. They plan on commencing yet another eventful season seeking to attain the same goal, through hard work, dedication, and teamwork they believe it is possible. With the help of coach Jacqueline Overs, second official year coaching Hillcrest’s JV volleyball team, surprisingly, the team was only first initiated last year.(Fall 2016)</p>
+          <p>Hillcrest’s Junior Varsity Volleyball team went undefeated last season. They plan on commencing yet another eventful season seeking to attain the same goal, through hard work, dedication, and teamwork they believe it is possible. With the help of coach Jacqueline Overs, second official year coaching Hillcrest’s JV volleyball team, surprisingly, the team was only first initiated last year.(Fall 2016) - <a href="highlighter.html">Highlighter</a></p>
           <hr>
           <a href="http://www.hillcresthighlighter.com/jv-girls-volleyball.html" target="about_blank">Read More</a>
           
@@ -1017,7 +956,7 @@
           <h1>Example 2</h1>
         </div>
     <div class="panel-body">
-          <img src="img/2.jpg" width="250px"/>
+          <img src="img/2.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -1033,7 +972,7 @@
           <h1>Example 3</h1>
         </div>
         <div class="panel-body">
-          <img src="img/3.jpg" width="250px"/>
+          <img src="img/3.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -1045,13 +984,12 @@
     </div>    
   </div>
 </div>
+<!-- end of Voleyball-->
 
-<!--Baseball Section-->
-<div id="baseball" class="jumbotron text-center">
-  <h1>Varsity Baseball</h1>
-  <h1>@</h1>
+<!--Baseball-->
+<div id="baseball" class="jumbotron text-center" style="background-image: url('http://gzhaixier.com/data/out/20/44669382-baseball-wallpaper.png');">
+  <h1>Baseball (Varsity)</h1>
   <p>Hillcrest High School</p>
- 
 </div>
 <div id="description" class="container-fluid bg-grey">
   <div class="row">
@@ -1062,15 +1000,12 @@
       <h4>Needs Description</h4>
     </div>
   </div>
-</div>
+</div><br>
  
- <!-- Container (Highlights Section) -->
+<div class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>Some Highlights</h1>
+</div>
 <div id="highlights" class="container-fluid">
-  <div class="text-center">
-  
-  <h2>Some Highlights</h2>
-
-  </div>
   <div class="row slideanim">
     <div id="highlight 1" class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
@@ -1078,7 +1013,7 @@
           <h1>Example 1</h1>
         </div>
         <div class="panel-body">
-          <img src="img/1.jpg" width="250px"/>
+          <img src="img/1.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -1094,7 +1029,7 @@
           <h1>Example 2</h1>
         </div>
     <div class="panel-body">
-          <img src="img/2.jpg" width="250px"/>
+          <img src="img/2.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -1110,7 +1045,7 @@
           <h1>Example 3</h1>
         </div>
         <div class="panel-body">
-          <img src="img/3.jpg" width="250px"/>
+          <img src="img/3.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -1122,11 +1057,11 @@
     </div>    
   </div>
 </div>
+<!-- end of Baseball -->
 
-<!--Softball Section-->
-<div id="softball" class="jumbotron text-center">
-  <h1>Varsity Softball</h1>
-  <h1>@</h1>
+<!--Softball-->
+<div id="softball" class="jumbotron text-center" style="background-image: url(http://www.pixelstalk.net/wp-content/uploads/2016/06/Softball-Wallpapers-HD.jpg);">
+  <h1>Softball (Varsity)</h1>
   <p>Hillcrest High School</p>
  
 </div>
@@ -1139,15 +1074,13 @@
       <h4>Needs Description</h4>
     </div>
   </div>
-</div>
+</div><br>
  
  <!-- Container (Highlights Section) -->
+ <div class="jumbotron text-center" style="background-color: #b232b2;">
+   <h1>Some Highlights</h1>
+ </div>
 <div id="highlights" class="container-fluid">
-  <div class="text-center">
-  
-  <h2>Some Highlights</h2>
-
-  </div>
   <div class="row slideanim">
     <div id="highlight 1" class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
@@ -1155,13 +1088,14 @@
           <h1>Softball Practice</h1>
         </div>
         <div class="panel-body">
-          <iframe width="250" height="250" src="https://www.youtube.com/embed/YBqtz-A2dcU" frameborder="0" allowfullscreen ></iframe>        
-          
+          <iframe width="230" height="300" src="https://www.youtube.com/embed/YBqtz-A2dcU" frameborder="0" allowfullscreen ></iframe>    
         </div>
 
         <div class="panel-footer">
           
-          <p>The team is off to a crushing start. This video looks at how the team prepared before the season. (Spring 2016)</p>
+          <p>The team is off to a crushing start. This video looks at how the team prepared before the season. (Spring 2016) - <a href="highlighter.html">Highlighter</a></p>
+          <hr>
+          <a href="https://www.youtube.com/embed/YBqtz-A2dcU" target="about_blank">Enlarge Video</a>
           
         </div>
       </div>      
@@ -1172,7 +1106,7 @@
           <h1>Example 2</h1>
         </div>
     <div class="panel-body">
-          <img src="img/2.jpg" width="250px" data-toggle="modal" data-target="#6Modal"/>
+          <img src="img/2.jpg" width="230px" data-toggle="modal" data-target="#6Modal"/>
              <!-- Modal -->
        <div id="6Modal" class="modal slideanim" role="dialog">
          <div class="modal-dialog">
@@ -1183,7 +1117,7 @@
                 <h4 class="modal-title">Lady Hawks At The Soccer Field</h4>
             </div>
             <div class="modal-body text-center">
-                <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/published/girls-soccer.jpg?1490805485" width="400">
+                <img src="http://www.hillcresthighlighter.com/uploads/4/0/6/8/40687775/published/girls-soccer.jpg?1490805485" width="300">
                 <br><br>
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
@@ -1206,7 +1140,7 @@
           <h1>Example 3</h1>
         </div>
         <div class="panel-body">
-          <img src="img/3.jpg" width="250px"/>
+          <img src="img/3.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -1218,11 +1152,11 @@
     </div>    
   </div>
 </div>
+<!-- end of Softball-->
 
-<!--Cricket Section-->
-<div id="cricket" class="jumbotron text-center">
+<!--Cricket-->
+<div id="cricket" class="jumbotron text-center" style="background-image: url(http://wallpaperpulse.com/img/586835.jpg);">
   <h1>Cricket</h1>
-  <h1>@</h1>
   <p>Hillcrest High School</p>
  
 </div>
@@ -1235,15 +1169,13 @@
       <h4>Needs Description</h4>
     </div>
   </div>
-</div>
+</div><br>
  
  <!-- Container (Highlights Section) -->
+<div class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>Some Highlights<h1>
+</div>
 <div id="highlights" class="container-fluid">
-  <div class="text-center">
-  
-  <h2>Some Highlights</h2>
-
-  </div>
   <div class="row slideanim">
     <div id="highlight 1" class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
@@ -1251,7 +1183,7 @@
           <h1>Example 1</h1>
         </div>
         <div class="panel-body">
-          <img src="img/1.jpg" width="250px"/>
+          <img src="img/1.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -1267,7 +1199,7 @@
           <h1>Example 2</h1>
         </div>
     <div class="panel-body">
-          <img src="img/2.jpg" width="250px"/>
+          <img src="img/2.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -1283,7 +1215,7 @@
           <h1>Example 3</h1>
         </div>
         <div class="panel-body">
-          <img src="img/3.jpg" width="250px"/>
+          <img src="img/3.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -1295,11 +1227,11 @@
     </div>    
   </div>
 </div>
+<!-- end of Cricket-->
 
-<!--Golf Section-->
-<div id="golf" class="jumbotron text-center">
+<!--Golf-->
+<div id="golf" class="jumbotron text-center" style="background-image: url(http://wallpapercave.com/wp/KVrHReQ.jpg);">
   <h1>Golf</h1>
-  <h1>@</h1>
   <p>Hillcrest High School</p>
  
 </div>
@@ -1312,15 +1244,12 @@
       <h4>Needs Description</h4>
     </div>
   </div>
-</div>
- 
- <!-- Container (Highlights Section) -->
-<div id="highlights" class="container-fluid">
-  <div class="text-center">
-  
-  <h2>Some Highlights</h2>
+</div><br>
 
-  </div>
+<div class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>Some Highlights</h1>
+</div>
+<div id="highlights" class="container-fluid">
   <div class="row slideanim">
     <div id="highlight 1" class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
@@ -1328,7 +1257,7 @@
           <h1>Example 1</h1>
         </div>
         <div class="panel-body">
-          <img src="img/1.jpg" width="250px"/>
+          <img src="img/1.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -1344,7 +1273,7 @@
           <h1>Example 2</h1>
         </div>
     <div class="panel-body">
-          <img src="img/2.jpg" width="250px"/>
+          <img src="img/2.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -1360,7 +1289,7 @@
           <h1>Example 3</h1>
         </div>
         <div class="panel-body">
-          <img src="img/3.jpg" width="250px"/>
+          <img src="img/3.jpg" width="230px"/>
           
         </div>
         <div class="panel-footer">
@@ -1372,83 +1301,69 @@
     </div>    
   </div>
 </div>
+<!-- end of Golf -->
 
-<!--Container (Eligibility)-->
-<div id="eligibility" class="container-fluid bg-grey">
+<!--Eligibility-->
+<div id="eligibility" class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>Eligibility Requirements</h1>
+</div>
+<div class="container-fluid bg-grey">
   <div class="row">
-    
-    <div class="col-sm-8">
-      <h2>Eligibility Requirements:</h2>      
+   <div class="col-sm-8">
+      <h2></h2>      
       <h4> <strong>The 5+1 Rule:</strong></h4>
       <h4>A student must pass five credit bearing subjects and physical education. A senior programmed for 4 or 5 classes who fails one class, in his/her senior year, will be eligible as long as the failed class is not required for graduation.</h4>
-      <hr>
+<hr>
       <h4><strong>The 10 Credit Rule:</strong></h4>
-     <h4>
-      A student must accumulate ten credits for the two semesters prior to the eligibility period not counting PE.
-     </h4>
-     <hr>
-     <h4>
-      Student-athletes must achieve a passing GPA at time of eligibility evaluation. The athletic director may submit a Request for an Eligibility Review of a Student-Athlete when extenuating circumstances exit. The principal must approve this request.
-     </h4>
-     <h4>
-      Students must achieve a minimum of 90% attendance at the end of each marking period.
-     </h4>
-     <hr>
+     <h4>A student must accumulate ten credits for the two semesters prior to the eligibility period not counting PE.</h4>
+<hr>
+     <h4>Student-athletes must achieve a passing GPA at time of eligibility evaluation. The athletic director may submit a Request for an Eligibility Review of a Student-Athlete when extenuating circumstances exit. The principal must approve this request.</h4>
+     <h4>Students must achieve a minimum of 90% attendance at the end of each marking period.</h4>
+<hr>
      <h4><strong>Grade 10:</strong></h4>
      <h4>Must have accumulated 10 credits and TAKEN Math and Science Regents.</h4>
-
      <h4><strong>Grade 11:</strong></h4>
-
      <h4> Must have accumulated 20 credits and PASSED with 65% or higher in the Math and Science Regent and TAKEN ELA and Global Regents.</h4>
-
      <h4><strong>Grade 12:</strong></h4>
-
      <h4>Must have accumulated 30 credits and PASSED with 65% or higher in the Math, Science, ELA, and Global and TAKEN US History/Government Regents. </h4>
-
-     <hr>
-
-     <h4>Medical Form</h4>
-
-     <h4>Parent Consent</h4>
-
-     <hr>
-
-     <h2>Note:</h2>
-
-     <h4><strong>Students can participate in 3 teams as long as they are not in the same season.</strong></h4>
-
-
-
-    </div>
-   
-  </div>
-</div>
-
 <hr>
-<!-- Container (Game Schedules Section) -->
-<div id="schedules" class="container-fluid text-center bg-grey">
-  <a href="http://www.psal.org/" target="about_blank"><img src="img/sports/psal.jpg" width="250"></a>
-  <h2>NEXT SCHEDULED GAME</h2>
-  <h2>Fall</h2>
+    <h4>Medical Form</h4>
+    <h4>Parent Consent</h4>
+<hr>
+    <h2>Note:</h2>
+    <h4><strong>Students can participate in 3 teams as long as they are not in the same season.</strong></h4>
+
+  </div>
+ </div>
+</div>
+<br>
+
+<!-- Game Schedules -->
+<div id="schedules" class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>NEXT SCHEDULED GAME</h1>
+
+</div>
+ <div class="jumbotron text-center" style="background-color: #b232b2;">
+    <h1>Fall</h1>
+  </div> 
+<div class="container-fluid text-center bg-grey">
+  <a href="http://www.psal.org/" target="about_blank"><img src="img/sports/psal.jpg" width="230"></a><br><br>
   
-  <div class="row text-center slideanim">
-    
-    <div class="col-sm-4">
-      <div class="thumbnail">
-        <br>
+     <div class="row text-center slideanim">
+        <div class="col-sm-4">
+           <div class="thumbnail">
+<br>
         <img src="img/sports/bowling-lg.png"/>
-        
         <p><strong>Bowling</strong></p>
-         <hr>         
+<hr>         
         <a href="http://www.psal.org/profiles/team-profile.aspx#018/28522" target="about_blank">Click Here (Lady Hawks Varsity)</a>
-        <br>
+<br>
         <a href="http://www.psal.org/profiles/team-profile.aspx#007/28522" target="about_blank2">Click Here (Hawks Varsity)</a>
 
-      </div>
-     
-    </div>
+          </div>
+     </div>
      <div class="col-sm-4">
-      <div class="thumbnail">
+       <div class="thumbnail">
          <img src="img/sports/tennis-lg.png"/>
          <br>
         <p><strong>Tennis</strong></p>        
@@ -1457,9 +1372,8 @@
         <br>
         <a href="http://www.psal.org/profiles/team-profile.aspx#014/28522" target="about_blank2">Click Here (Hawks Varsity)</a>
 
+        </div>
       </div>
-
-    </div>
 
     <div class="col-sm-4">
       <div class="thumbnail">
@@ -1531,10 +1445,13 @@
       </div>
     </div>
     
-  </div><br>
+  </div>
+</div><br>
   
-  <hr>
-  <h2>WINTER</h2>
+<div class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>WINTER</h1>
+</div>
+<div class="container-fluid text-center bg-grey">
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
@@ -1588,9 +1505,13 @@
 
       </div>
     </div>
-  </div><br><br>
-  <hr>  
-  <h2>SPRING</h2>
+  </div>
+</div><br><br>
+  
+<div class="jumbotron text-center" style="background-color: #b232b2;">
+  <h1>SPRING</h1>
+</div>
+ <div class="container-fluid text-center bg-grey">
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
@@ -1704,28 +1625,22 @@
   </div>
 </div>
 
-<div class="jumbotron text-center slideanim">
-  <h1>Home Of The Hawks</h1>
-  
+<!-- end of Game schedules -->
+
+<!-- Banner -->
+<div id="end banner" class="jumbotron text-center">
+  <h1 style="background-color: white; border-radius: 10px; color: purple;">Home Of The Hawks</h1>
 </div>
-
- <div class="text-center slideanim">
-      
-        <img src="http://schools.nyc.gov/NR/rdonlyres/22260786-0759-4439-B85E-CD578B8A3C07/199609/Picture1.jpg" height="250px"/>
-        
-     
- </div>
+<!-- end of Banner -->
 
 
-
+<!-- footer -->
 <footer class="container-fluid text-center">
 <a href="#main" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
   <p>&copy; Copyright Hillcrest High School</p> 
-  <a href="icons.html">Icons Used</a> &#8226; <a href="team.html">Team</a>
+  <a href="icons.html">Icons Used</a> &#8226; <a href="team.html">Web Development Team</a>
 </footer>
-
-
-
+<!-- end of footer -->
 
 </body>
 </html>
